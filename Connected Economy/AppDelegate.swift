@@ -71,7 +71,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application.registerForRemoteNotificationTypes(types)
         }
         
-        return true
+        return true 
     }
     
     //--------------------------------------
