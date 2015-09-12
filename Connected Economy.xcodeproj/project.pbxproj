@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1003631B84973A0055446D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1003621B84973A0055446D /* SWRevealViewController.m */; };
+		CC1003651B8498710055446D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1003641B8498710055446D /* MenuController.swift */; };
+		CC2225331B8F87160011F831 /* LeaderboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2225321B8F87160011F831 /* LeaderboardTabBarController.swift */; };
+		CC32F1521B84D041007F7238 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC32F1511B84D041007F7238 /* HomeController.swift */; };
+		CCAD41561BA4503900F08A33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41551BA4503900F08A33 /* SystemConfiguration.framework */; };
+		CCAD41581BA4504600F08A33 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41571BA4504600F08A33 /* AudioToolbox.framework */; };
+		CCAD41661BA4509800F08A33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41651BA4509800F08A33 /* libsqlite3.tbd */; };
+		CCAD41691BA450C000F08A33 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41681BA450C000F08A33 /* libstdc++.6.tbd */; };
+		CCAD41701BA451C200F08A33 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416A1BA451C200F08A33 /* Bolts.framework */; };
+		CCAD41711BA451C200F08A33 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416B1BA451C200F08A33 /* Parse.framework */; };
+		CCAD41721BA451C200F08A33 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416C1BA451C200F08A33 /* ParseCrashReporting.framework */; };
+		CCAD41751BA451C200F08A33 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416F1BA451C200F08A33 /* ParseUI.framework */; };
+		CCAD41781BA454DB00F08A33 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41761BA454DB00F08A33 /* FBSDKCoreKit.framework */; };
+		CCAD41791BA454DB00F08A33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41771BA454DB00F08A33 /* FBSDKLoginKit.framework */; };
+		CCAD417D1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD417C1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework */; };
+		CCB22ABC1B84956A00B7CB76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB22ABB1B84956A00B7CB76 /* AppDelegate.swift */; };
+		CCB22ABE1B84956A00B7CB76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB22ABD1B84956A00B7CB76 /* ViewController.swift */; };
+		CCB22AC11B84956A00B7CB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB22ABF1B84956A00B7CB76 /* Main.storyboard */; };
+		CCB22AC41B84956A00B7CB76 /* Connected_Economy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCB22AC21B84956A00B7CB76 /* Connected_Economy.xcdatamodeld */; };
+		CCB22AC61B84956A00B7CB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB22AC51B84956A00B7CB76 /* Assets.xcassets */; };
+		CCB22AC91B84956A00B7CB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB22AC71B84956A00B7CB76 /* LaunchScreen.storyboard */; };
+		CCB22AD41B84956A00B7CB76 /* Connected_EconomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB22AD31B84956A00B7CB76 /* Connected_EconomyTests.swift */; };
+		CCB22ADF1B84956A00B7CB76 /* Connected_EconomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB22ADE1B84956A00B7CB76 /* Connected_EconomyUITests.swift */; };
+		CCB6ACC91B905C9400BF1C3E /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB6ACC81B905C9400BF1C3E /* PopupViewController.xib */; };
+		CCB6ACCE1B90721600BF1C3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB6ACCD1B90721600BF1C3E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB22AD01B84956A00B7CB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB22AB01B84956A00B7CB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB22AB71B84956A00B7CB76;
+			remoteInfo = "Connected Economy";
+		};
+		CCB22ADB1B84956A00B7CB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB22AB01B84956A00B7CB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB22AB71B84956A00B7CB76;
+			remoteInfo = "Connected Economy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC1003601B8497390055446D /* Connected Economy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connected Economy-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC1003611B84973A0055446D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CC1003621B84973A0055446D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CC1003641B8498710055446D /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		CC2225321B8F87160011F831 /* LeaderboardTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTabBarController.swift; sourceTree = "<group>"; };
+		CC32F1511B84D041007F7238 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		CCAD41551BA4503900F08A33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CCAD41571BA4504600F08A33 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CCAD41651BA4509800F08A33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CCAD41681BA450C000F08A33 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		CCAD416A1BA451C200F08A33 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../Downloads/ParseStarterProject/Bolts.framework; sourceTree = "<group>"; };
+		CCAD416B1BA451C200F08A33 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../Downloads/ParseStarterProject/Parse.framework; sourceTree = "<group>"; };
+		CCAD416C1BA451C200F08A33 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = ../../../../Downloads/ParseStarterProject/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CCAD416F1BA451C200F08A33 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../../../../Downloads/ParseStarterProject/ParseUI.framework; sourceTree = "<group>"; };
+		CCAD41761BA454DB00F08A33 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CCAD41771BA454DB00F08A33 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CCAD417A1BA4562100F08A33 /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCAD417C1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = ../../../../Downloads/ParseStarterProject/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		CCB22AB81B84956A00B7CB76 /* Connected Economy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connected Economy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB22ABB1B84956A00B7CB76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB22ABD1B84956A00B7CB76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB22AC01B84956A00B7CB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB22AC31B84956A00B7CB76 /* Connected_Economy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connected_Economy.xcdatamodel; sourceTree = "<group>"; };
+		CCB22AC51B84956A00B7CB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB22AC81B84956A00B7CB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB22ACA1B84956A00B7CB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB22ACF1B84956A00B7CB76 /* Connected EconomyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connected EconomyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB22AD31B84956A00B7CB76 /* Connected_EconomyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connected_EconomyTests.swift; sourceTree = "<group>"; };
+		CCB22AD51B84956A00B7CB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB22ADA1B84956A00B7CB76 /* Connected EconomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connected EconomyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB22ADE1B84956A00B7CB76 /* Connected_EconomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connected_EconomyUITests.swift; sourceTree = "<group>"; };
+		CCB22AE01B84956A00B7CB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB6ACC81B905C9400BF1C3E /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		CCB6ACCA1B905CD100BF1C3E /* PopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		CCB6ACCD1B90721600BF1C3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB22AB51B84956A00B7CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAD41701BA451C200F08A33 /* Bolts.framework in Frameworks */,
+				CCAD41781BA454DB00F08A33 /* FBSDKCoreKit.framework in Frameworks */,
+				CCAD41711BA451C200F08A33 /* Parse.framework in Frameworks */,
+				CCAD41721BA451C200F08A33 /* ParseCrashReporting.framework in Frameworks */,
+				CCAD41751BA451C200F08A33 /* ParseUI.framework in Frameworks */,
+				CCAD41791BA454DB00F08A33 /* FBSDKLoginKit.framework in Frameworks */,
+				CCAD41691BA450C000F08A33 /* libstdc++.6.tbd in Frameworks */,
+				CCAD41661BA4509800F08A33 /* libsqlite3.tbd in Frameworks */,
+				CCAD41581BA4504600F08A33 /* AudioToolbox.framework in Frameworks */,
+				CCAD41561BA4503900F08A33 /* SystemConfiguration.framework in Frameworks */,
+				CCB6ACCE1B90721600BF1C3E /* QuartzCore.framework in Frameworks */,
+				CCAD417D1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22ACC1B84956A00B7CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22AD71B84956A00B7CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC10035F1B8496D60055446D /* SWRevealViewConnector */ = {
+			isa = PBXGroup;
+			children = (
+				CC1003611B84973A0055446D /* SWRevealViewController.h */,
+				CC1003621B84973A0055446D /* SWRevealViewController.m */,
+				CC1003601B8497390055446D /* Connected Economy-Bridging-Header.h */,
+			);
+			name = SWRevealViewConnector;
+			sourceTree = "<group>";
+		};
+		CCAD41671BA450AC00F08A33 /* System Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD41651BA4509800F08A33 /* libsqlite3.tbd */,
+				CCAD41681BA450C000F08A33 /* libstdc++.6.tbd */,
+				CCAD41571BA4504600F08A33 /* AudioToolbox.framework */,
+				CCAD41551BA4503900F08A33 /* SystemConfiguration.framework */,
+			);
+			name = "System Framework";
+			sourceTree = "<group>";
+		};
+		CCAD417B1BA4562900F08A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB22ACA1B84956A00B7CB76 /* Info.plist */,
+				CCAD417A1BA4562100F08A33 /* ParseStarterProject-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB22AAF1B84956A00B7CB76 = {
+			isa = PBXGroup;
+			children = (
+				CCB22ABA1B84956A00B7CB76 /* Connected Economy */,
+				CCB22AD21B84956A00B7CB76 /* Connected EconomyTests */,
+				CCB22ADD1B84956A00B7CB76 /* Connected EconomyUITests */,
+				CCB22AB91B84956A00B7CB76 /* Products */,
+				CCB6ACCC1B9071B600BF1C3E /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB22AB91B84956A00B7CB76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB22AB81B84956A00B7CB76 /* Connected Economy.app */,
+				CCB22ACF1B84956A00B7CB76 /* Connected EconomyTests.xctest */,
+				CCB22ADA1B84956A00B7CB76 /* Connected EconomyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB22ABA1B84956A00B7CB76 /* Connected Economy */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6ACC71B905C6800BF1C3E /* Popup Leaderboard */,
+				CC10035F1B8496D60055446D /* SWRevealViewConnector */,
+				CCB22ABB1B84956A00B7CB76 /* AppDelegate.swift */,
+				CCB22ABD1B84956A00B7CB76 /* ViewController.swift */,
+				CC32F1511B84D041007F7238 /* HomeController.swift */,
+				CCB22ABF1B84956A00B7CB76 /* Main.storyboard */,
+				CC1003641B8498710055446D /* MenuController.swift */,
+				CCB22AC51B84956A00B7CB76 /* Assets.xcassets */,
+				CCB22AC71B84956A00B7CB76 /* LaunchScreen.storyboard */,
+				CCB22AC21B84956A00B7CB76 /* Connected_Economy.xcdatamodeld */,
+				CC2225321B8F87160011F831 /* LeaderboardTabBarController.swift */,
+				CCAD417B1BA4562900F08A33 /* Supporting Files */,
+			);
+			path = "Connected Economy";
+			sourceTree = "<group>";
+		};
+		CCB22AD21B84956A00B7CB76 /* Connected EconomyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB22AD31B84956A00B7CB76 /* Connected_EconomyTests.swift */,
+				CCB22AD51B84956A00B7CB76 /* Info.plist */,
+			);
+			path = "Connected EconomyTests";
+			sourceTree = "<group>";
+		};
+		CCB22ADD1B84956A00B7CB76 /* Connected EconomyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB22ADE1B84956A00B7CB76 /* Connected_EconomyUITests.swift */,
+				CCB22AE01B84956A00B7CB76 /* Info.plist */,
+			);
+			path = "Connected EconomyUITests";
+			sourceTree = "<group>";
+		};
+		CCB6ACC71B905C6800BF1C3E /* Popup Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6ACC81B905C9400BF1C3E /* PopupViewController.xib */,
+				CCB6ACCA1B905CD100BF1C3E /* PopupViewController.h */,
+			);
+			name = "Popup Leaderboard";
+			sourceTree = "<group>";
+		};
+		CCB6ACCC1B9071B600BF1C3E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD417C1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework */,
+				CCAD41761BA454DB00F08A33 /* FBSDKCoreKit.framework */,
+				CCAD41771BA454DB00F08A33 /* FBSDKLoginKit.framework */,
+				CCAD416A1BA451C200F08A33 /* Bolts.framework */,
+				CCAD416B1BA451C200F08A33 /* Parse.framework */,
+				CCAD416C1BA451C200F08A33 /* ParseCrashReporting.framework */,
+				CCAD416F1BA451C200F08A33 /* ParseUI.framework */,
+				CCAD41671BA450AC00F08A33 /* System Framework */,
+				CCB6ACCD1B90721600BF1C3E /* QuartzCore.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB22AB71B84956A00B7CB76 /* Connected Economy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB22AE31B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected Economy" */;
+			buildPhases = (
+				CCB22AB41B84956A00B7CB76 /* Sources */,
+				CCB22AB51B84956A00B7CB76 /* Frameworks */,
+				CCB22AB61B84956A00B7CB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connected Economy";
+			productName = "Connected Economy";
+			productReference = CCB22AB81B84956A00B7CB76 /* Connected Economy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB22ACE1B84956A00B7CB76 /* Connected EconomyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB22AE61B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected EconomyTests" */;
+			buildPhases = (
+				CCB22ACB1B84956A00B7CB76 /* Sources */,
+				CCB22ACC1B84956A00B7CB76 /* Frameworks */,
+				CCB22ACD1B84956A00B7CB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB22AD11B84956A00B7CB76 /* PBXTargetDependency */,
+			);
+			name = "Connected EconomyTests";
+			productName = "Connected EconomyTests";
+			productReference = CCB22ACF1B84956A00B7CB76 /* Connected EconomyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB22AD91B84956A00B7CB76 /* Connected EconomyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB22AE91B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected EconomyUITests" */;
+			buildPhases = (
+				CCB22AD61B84956A00B7CB76 /* Sources */,
+				CCB22AD71B84956A00B7CB76 /* Frameworks */,
+				CCB22AD81B84956A00B7CB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB22ADC1B84956A00B7CB76 /* PBXTargetDependency */,
+			);
+			name = "Connected EconomyUITests";
+			productName = "Connected EconomyUITests";
+			productReference = CCB22ADA1B84956A00B7CB76 /* Connected EconomyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB22AB01B84956A00B7CB76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "M. Firza Pratama";
+				TargetAttributes = {
+					CCB22AB71B84956A00B7CB76 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CCB22ACE1B84956A00B7CB76 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB22AB71B84956A00B7CB76;
+					};
+					CCB22AD91B84956A00B7CB76 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB22AB71B84956A00B7CB76;
+					};
+				};
+			};
+			buildConfigurationList = CCB22AB31B84956A00B7CB76 /* Build configuration list for PBXProject "Connected Economy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB22AAF1B84956A00B7CB76;
+			productRefGroup = CCB22AB91B84956A00B7CB76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB22AB71B84956A00B7CB76 /* Connected Economy */,
+				CCB22ACE1B84956A00B7CB76 /* Connected EconomyTests */,
+				CCB22AD91B84956A00B7CB76 /* Connected EconomyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB22AB61B84956A00B7CB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB22AC91B84956A00B7CB76 /* LaunchScreen.storyboard in Resources */,
+				CCB22AC61B84956A00B7CB76 /* Assets.xcassets in Resources */,
+				CCB22AC11B84956A00B7CB76 /* Main.storyboard in Resources */,
+				CCB6ACC91B905C9400BF1C3E /* PopupViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22ACD1B84956A00B7CB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22AD81B84956A00B7CB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB22AB41B84956A00B7CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1003651B8498710055446D /* MenuController.swift in Sources */,
+				CCB22AC41B84956A00B7CB76 /* Connected_Economy.xcdatamodeld in Sources */,
+				CC2225331B8F87160011F831 /* LeaderboardTabBarController.swift in Sources */,
+				CC32F1521B84D041007F7238 /* HomeController.swift in Sources */,
+				CCB22ABE1B84956A00B7CB76 /* ViewController.swift in Sources */,
+				CCB22ABC1B84956A00B7CB76 /* AppDelegate.swift in Sources */,
+				CC1003631B84973A0055446D /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22ACB1B84956A00B7CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB22AD41B84956A00B7CB76 /* Connected_EconomyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB22AD61B84956A00B7CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB22ADF1B84956A00B7CB76 /* Connected_EconomyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB22AD11B84956A00B7CB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB22AB71B84956A00B7CB76 /* Connected Economy */;
+			targetProxy = CCB22AD01B84956A00B7CB76 /* PBXContainerItemProxy */;
+		};
+		CCB22ADC1B84956A00B7CB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB22AB71B84956A00B7CB76 /* Connected Economy */;
+			targetProxy = CCB22ADB1B84956A00B7CB76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB22ABF1B84956A00B7CB76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB22AC01B84956A00B7CB76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB22AC71B84956A00B7CB76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB22AC81B84956A00B7CB76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB22AE11B84956A00B7CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB22AE21B84956A00B7CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB22AE41B84956A00B7CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/**",
+					/Users/Firza/Downloads/ParseStarterProject,
+					/Users/Firza/Downloads/FacebookSDKs,
+				);
+				INFOPLIST_FILE = "Connected Economy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-Economy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connected Economy/Connected Economy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB22AE51B84956A00B7CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/**",
+					/Users/Firza/Downloads/ParseStarterProject,
+					/Users/Firza/Downloads/FacebookSDKs,
+				);
+				INFOPLIST_FILE = "Connected Economy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-Economy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Connected Economy/Connected Economy-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CCB22AE71B84956A00B7CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Connected EconomyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-EconomyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connected Economy.app/Connected Economy";
+			};
+			name = Debug;
+		};
+		CCB22AE81B84956A00B7CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Connected EconomyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-EconomyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connected Economy.app/Connected Economy";
+			};
+			name = Release;
+		};
+		CCB22AEA1B84956A00B7CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Connected EconomyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-EconomyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Connected Economy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCB22AEB1B84956A00B7CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Connected EconomyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-EconomyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Connected Economy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB22AB31B84956A00B7CB76 /* Build configuration list for PBXProject "Connected Economy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB22AE11B84956A00B7CB76 /* Debug */,
+				CCB22AE21B84956A00B7CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB22AE31B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected Economy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB22AE41B84956A00B7CB76 /* Debug */,
+				CCB22AE51B84956A00B7CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB22AE61B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected EconomyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB22AE71B84956A00B7CB76 /* Debug */,
+				CCB22AE81B84956A00B7CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB22AE91B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected EconomyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB22AEA1B84956A00B7CB76 /* Debug */,
+				CCB22AEB1B84956A00B7CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCB22AC21B84956A00B7CB76 /* Connected_Economy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCB22AC31B84956A00B7CB76 /* Connected_Economy.xcdatamodel */,
+			);
+			currentVersion = CCB22AC31B84956A00B7CB76 /* Connected_Economy.xcdatamodel */;
+			path = Connected_Economy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCB22AB01B84956A00B7CB76 /* Project object */;
+}
