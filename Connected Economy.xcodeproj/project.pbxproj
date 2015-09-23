@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5377F61BAD24AD0006D094 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5377F51BAD24AD0006D094 /* QRScanViewController.swift */; };
+		8B5377F81BAD66EA0006D094 /* ConnectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5377F71BAD66EA0006D094 /* ConnectionTableViewCell.swift */; };
+		8B5377FA1BAD67CB0006D094 /* HomeConnectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5377F91BAD67CB0006D094 /* HomeConnectionsTableViewController.swift */; };
+		8B59C9C91BAFF7EC000314C8 /* ConnectionsTableViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59C9C81BAFF7EC000314C8 /* ConnectionsTableViewControler.swift */; };
+		8B59C9CB1BAFFD91000314C8 /* MyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59C9CA1BAFFD91000314C8 /* MyQRCodeViewController.swift */; };
+		8B59FD171BB1478900562F8F /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59FD161BB1478900562F8F /* CongratulationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B63433D1BB2D8C400D7FD4E /* DayThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63433C1BB2D8C400D7FD4E /* DayThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B6682C01BB29CC100BDB79F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6682BF1BB29CC100BDB79F /* AboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B6682C41BB2BD6F00BDB79F /* DayOneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6682C31BB2BD6F00BDB79F /* DayOneTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B6682C61BB2C99B00BDB79F /* DayTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6682C51BB2C99B00BDB79F /* DayTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B9D698B1BB16F640041A14F /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D698A1BB16F640041A14F /* MyProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8B9D698D1BB1853A0041A14F /* ConnectionProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D698C1BB1853A0041A14F /* ConnectionProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8BA4217D1BB2F4D400458687 /* LeaderBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4217C1BB2F4D400458687 /* LeaderBoardCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8BA4217F1BB2F5F600458687 /* AllTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4217E1BB2F5F600458687 /* AllTimeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8BA421811BB2FF4400458687 /* TodayLeaderBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA421801BB2FF4400458687 /* TodayLeaderBoardTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8BC547251BB05BB800B79D96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC547241BB05BB800B79D96 /* LoginViewController.swift */; };
+		8BD2663C1BB0F67400E509ED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2663B1BB0F67400E509ED /* RegisterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8BE6D1861BACF7D100E2E96D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6D1851BACF7D100E2E96D /* User.m */; };
+		8BF8C69C1BAC036800530994 /* IDBytesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8C69B1BAC036800530994 /* IDBytesManager.m */; };
+		8BF8C69F1BAC1E1F00530994 /* UIImageViewIDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8C69E1BAC1E1F00530994 /* UIImageViewIDB.m */; };
+		8BF8C6A11BAC3AB300530994 /* RundownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8C6A01BAC3AB300530994 /* RundownViewController.swift */; };
 		CC1003631B84973A0055446D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1003621B84973A0055446D /* SWRevealViewController.m */; };
 		CC1003651B8498710055446D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1003641B8498710055446D /* MenuController.swift */; };
 		CC2225331B8F87160011F831 /* LeaderboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2225321B8F87160011F831 /* LeaderboardTabBarController.swift */; };
@@ -16,7 +37,6 @@
 		CCAD41661BA4509800F08A33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41651BA4509800F08A33 /* libsqlite3.tbd */; };
 		CCAD41691BA450C000F08A33 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41681BA450C000F08A33 /* libstdc++.6.tbd */; };
 		CCAD41701BA451C200F08A33 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416A1BA451C200F08A33 /* Bolts.framework */; };
-		CCAD41711BA451C200F08A33 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416B1BA451C200F08A33 /* Parse.framework */; };
 		CCAD41721BA451C200F08A33 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416C1BA451C200F08A33 /* ParseCrashReporting.framework */; };
 		CCAD41751BA451C200F08A33 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD416F1BA451C200F08A33 /* ParseUI.framework */; };
 		CCAD41781BA454DB00F08A33 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD41761BA454DB00F08A33 /* FBSDKCoreKit.framework */; };
@@ -32,6 +52,7 @@
 		CCB22ADF1B84956A00B7CB76 /* Connected_EconomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB22ADE1B84956A00B7CB76 /* Connected_EconomyUITests.swift */; };
 		CCB6ACC91B905C9400BF1C3E /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB6ACC81B905C9400BF1C3E /* PopupViewController.xib */; };
 		CCB6ACCE1B90721600BF1C3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB6ACCD1B90721600BF1C3E /* QuartzCore.framework */; };
+		E9374303702757BBC645BDFC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93D5457E58F5B7B265F0AF7 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +73,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE01714FECC74EB0EE9CB3B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8B5377F51BAD24AD0006D094 /* QRScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		8B5377F71BAD66EA0006D094 /* ConnectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionTableViewCell.swift; sourceTree = "<group>"; };
+		8B5377F91BAD67CB0006D094 /* HomeConnectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeConnectionsTableViewController.swift; sourceTree = "<group>"; };
+		8B59C9C81BAFF7EC000314C8 /* ConnectionsTableViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionsTableViewControler.swift; sourceTree = "<group>"; };
+		8B59C9CA1BAFFD91000314C8 /* MyQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRCodeViewController.swift; sourceTree = "<group>"; };
+		8B59FD161BB1478900562F8F /* CongratulationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
+		8B59FD181BB1558B00562F8F /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GothamLight.ttf; path = ../../Downloads/GothamLight.ttf; sourceTree = "<group>"; };
+		8B59FD191BB1559700562F8F /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GothamBold.ttf; path = ../../Downloads/GothamBold.ttf; sourceTree = "<group>"; };
+		8B63433C1BB2D8C400D7FD4E /* DayThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThreeViewController.swift; sourceTree = "<group>"; };
+		8B6682BF1BB29CC100BDB79F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		8B6682C31BB2BD6F00BDB79F /* DayOneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOneTableViewController.swift; sourceTree = "<group>"; };
+		8B6682C51BB2C99B00BDB79F /* DayTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTwoViewController.swift; sourceTree = "<group>"; };
+		8B9D698A1BB16F640041A14F /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		8B9D698C1BB1853A0041A14F /* ConnectionProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionProfileViewController.swift; sourceTree = "<group>"; };
+		8BA4217C1BB2F4D400458687 /* LeaderBoardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardCell.swift; sourceTree = "<group>"; };
+		8BA4217E1BB2F5F600458687 /* AllTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTimeTableViewController.swift; sourceTree = "<group>"; };
+		8BA421801BB2FF4400458687 /* TodayLeaderBoardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayLeaderBoardTableViewController.swift; sourceTree = "<group>"; };
+		8BC547241BB05BB800B79D96 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BD2663B1BB0F67400E509ED /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8BE6D1841BACF7D100E2E96D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8BE6D1851BACF7D100E2E96D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8BF8C69A1BAC036800530994 /* IDBytesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDBytesManager.h; sourceTree = "<group>"; };
+		8BF8C69B1BAC036800530994 /* IDBytesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDBytesManager.m; sourceTree = "<group>"; };
+		8BF8C69D1BAC1E1F00530994 /* UIImageViewIDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewIDB.h; sourceTree = "<group>"; };
+		8BF8C69E1BAC1E1F00530994 /* UIImageViewIDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewIDB.m; sourceTree = "<group>"; };
+		8BF8C6A01BAC3AB300530994 /* RundownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RundownViewController.swift; sourceTree = "<group>"; };
+		ABF7F4A70FE108AB5BFDA033 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C93D5457E58F5B7B265F0AF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1003601B8497390055446D /* Connected Economy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connected Economy-Bridging-Header.h"; sourceTree = "<group>"; };
 		CC1003611B84973A0055446D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CC1003621B84973A0055446D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -70,7 +120,7 @@
 		CCAD41771BA454DB00F08A33 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CCAD417A1BA4562100F08A33 /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		CCAD417C1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = ../../../../Downloads/ParseStarterProject/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		CCB22AB81B84956A00B7CB76 /* Connected Economy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connected Economy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB22AB81B84956A00B7CB76 /* IdByte Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IdByte Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB22ABB1B84956A00B7CB76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB22ABD1B84956A00B7CB76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCB22AC01B84956A00B7CB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,18 +144,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAD41701BA451C200F08A33 /* Bolts.framework in Frameworks */,
+				CCAD41791BA454DB00F08A33 /* FBSDKLoginKit.framework in Frameworks */,
 				CCAD41781BA454DB00F08A33 /* FBSDKCoreKit.framework in Frameworks */,
-				CCAD41711BA451C200F08A33 /* Parse.framework in Frameworks */,
+				CCAD41701BA451C200F08A33 /* Bolts.framework in Frameworks */,
 				CCAD41721BA451C200F08A33 /* ParseCrashReporting.framework in Frameworks */,
 				CCAD41751BA451C200F08A33 /* ParseUI.framework in Frameworks */,
-				CCAD41791BA454DB00F08A33 /* FBSDKLoginKit.framework in Frameworks */,
 				CCAD41691BA450C000F08A33 /* libstdc++.6.tbd in Frameworks */,
 				CCAD41661BA4509800F08A33 /* libsqlite3.tbd in Frameworks */,
 				CCAD41581BA4504600F08A33 /* AudioToolbox.framework in Frameworks */,
 				CCAD41561BA4503900F08A33 /* SystemConfiguration.framework in Frameworks */,
 				CCB6ACCE1B90721600BF1C3E /* QuartzCore.framework in Frameworks */,
 				CCAD417D1BA456DE00F08A33 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				E9374303702757BBC645BDFC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +176,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0660E48D56909B94880BD3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93D5457E58F5B7B265F0AF7 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BE6D1831BACF7B300E2E96D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BE6D1841BACF7D100E2E96D /* User.h */,
+				8BE6D1851BACF7D100E2E96D /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8BF8C68D1BABF85700530994 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8C69A1BAC036800530994 /* IDBytesManager.h */,
+				8BF8C69B1BAC036800530994 /* IDBytesManager.m */,
+			);
+			name = RequestManager;
+			sourceTree = "<group>";
+		};
+		9BEC47C71351AC3BCF38F5F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7F4A70FE108AB5BFDA033 /* Pods.debug.xcconfig */,
+				3DE01714FECC74EB0EE9CB3B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC10035F1B8496D60055446D /* SWRevealViewConnector */ = {
 			isa = PBXGroup;
 			children = (
 				CC1003611B84973A0055446D /* SWRevealViewController.h */,
 				CC1003621B84973A0055446D /* SWRevealViewController.m */,
-				CC1003601B8497390055446D /* Connected Economy-Bridging-Header.h */,
 			);
 			name = SWRevealViewConnector;
 			sourceTree = "<group>";
@@ -151,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				CCB22ACA1B84956A00B7CB76 /* Info.plist */,
+				CC1003601B8497390055446D /* Connected Economy-Bridging-Header.h */,
 				CCAD417A1BA4562100F08A33 /* ParseStarterProject-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
@@ -164,13 +249,15 @@
 				CCB22ADD1B84956A00B7CB76 /* Connected EconomyUITests */,
 				CCB22AB91B84956A00B7CB76 /* Products */,
 				CCB6ACCC1B9071B600BF1C3E /* Framework */,
+				9BEC47C71351AC3BCF38F5F4 /* Pods */,
+				0660E48D56909B94880BD3DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CCB22AB91B84956A00B7CB76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCB22AB81B84956A00B7CB76 /* Connected Economy.app */,
+				CCB22AB81B84956A00B7CB76 /* IdByte Connect.app */,
 				CCB22ACF1B84956A00B7CB76 /* Connected EconomyTests.xctest */,
 				CCB22ADA1B84956A00B7CB76 /* Connected EconomyUITests.xctest */,
 			);
@@ -180,18 +267,42 @@
 		CCB22ABA1B84956A00B7CB76 /* Connected Economy */ = {
 			isa = PBXGroup;
 			children = (
+				8BE6D1831BACF7B300E2E96D /* Models */,
+				8BF8C68D1BABF85700530994 /* RequestManager */,
 				CCB6ACC71B905C6800BF1C3E /* Popup Leaderboard */,
 				CC10035F1B8496D60055446D /* SWRevealViewConnector */,
 				CCB22ABB1B84956A00B7CB76 /* AppDelegate.swift */,
+				8B6682BF1BB29CC100BDB79F /* AboutViewController.swift */,
 				CCB22ABD1B84956A00B7CB76 /* ViewController.swift */,
 				CC32F1511B84D041007F7238 /* HomeController.swift */,
 				CCB22ABF1B84956A00B7CB76 /* Main.storyboard */,
 				CC1003641B8498710055446D /* MenuController.swift */,
 				CCB22AC51B84956A00B7CB76 /* Assets.xcassets */,
+				8B59FD191BB1559700562F8F /* GothamBold.ttf */,
+				8B59FD181BB1558B00562F8F /* GothamLight.ttf */,
 				CCB22AC71B84956A00B7CB76 /* LaunchScreen.storyboard */,
 				CCB22AC21B84956A00B7CB76 /* Connected_Economy.xcdatamodeld */,
 				CC2225321B8F87160011F831 /* LeaderboardTabBarController.swift */,
 				CCAD417B1BA4562900F08A33 /* Supporting Files */,
+				8BF8C69D1BAC1E1F00530994 /* UIImageViewIDB.h */,
+				8BF8C69E1BAC1E1F00530994 /* UIImageViewIDB.m */,
+				8BF8C6A01BAC3AB300530994 /* RundownViewController.swift */,
+				8B5377F51BAD24AD0006D094 /* QRScanViewController.swift */,
+				8B5377F71BAD66EA0006D094 /* ConnectionTableViewCell.swift */,
+				8B5377F91BAD67CB0006D094 /* HomeConnectionsTableViewController.swift */,
+				8B59C9C81BAFF7EC000314C8 /* ConnectionsTableViewControler.swift */,
+				8B59C9CA1BAFFD91000314C8 /* MyQRCodeViewController.swift */,
+				8BC547241BB05BB800B79D96 /* LoginViewController.swift */,
+				8BD2663B1BB0F67400E509ED /* RegisterViewController.swift */,
+				8B59FD161BB1478900562F8F /* CongratulationsViewController.swift */,
+				8B9D698A1BB16F640041A14F /* MyProfileViewController.swift */,
+				8B9D698C1BB1853A0041A14F /* ConnectionProfileViewController.swift */,
+				8B6682C31BB2BD6F00BDB79F /* DayOneTableViewController.swift */,
+				8B6682C51BB2C99B00BDB79F /* DayTwoViewController.swift */,
+				8B63433C1BB2D8C400D7FD4E /* DayThreeViewController.swift */,
+				8BA4217C1BB2F4D400458687 /* LeaderBoardCell.swift */,
+				8BA4217E1BB2F5F600458687 /* AllTimeTableViewController.swift */,
+				8BA421801BB2FF4400458687 /* TodayLeaderBoardTableViewController.swift */,
 			);
 			path = "Connected Economy";
 			sourceTree = "<group>";
@@ -246,9 +357,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB22AE31B84956A00B7CB76 /* Build configuration list for PBXNativeTarget "Connected Economy" */;
 			buildPhases = (
+				3FD91FB80804ED495758DEFC /* Check Pods Manifest.lock */,
 				CCB22AB41B84956A00B7CB76 /* Sources */,
 				CCB22AB51B84956A00B7CB76 /* Frameworks */,
 				CCB22AB61B84956A00B7CB76 /* Resources */,
+				AAC2C8DA9C2B6BC2894C572E /* Embed Pods Frameworks */,
+				174897662DFBC5083C2024C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,7 +370,7 @@
 			);
 			name = "Connected Economy";
 			productName = "Connected Economy";
-			productReference = CCB22AB81B84956A00B7CB76 /* Connected Economy.app */;
+			productReference = CCB22AB81B84956A00B7CB76 /* IdByte Connect.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CCB22ACE1B84956A00B7CB76 /* Connected EconomyTests */ = {
@@ -307,6 +421,7 @@
 				TargetAttributes = {
 					CCB22AB71B84956A00B7CB76 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = LM3646D5FX;
 					};
 					CCB22ACE1B84956A00B7CB76 = {
 						CreatedOnToolsVersion = 7.0;
@@ -366,18 +481,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		174897662DFBC5083C2024C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD91FB80804ED495758DEFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC2C8DA9C2B6BC2894C572E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCB22AB41B84956A00B7CB76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5377F61BAD24AD0006D094 /* QRScanViewController.swift in Sources */,
 				CC1003651B8498710055446D /* MenuController.swift in Sources */,
+				8B6682C01BB29CC100BDB79F /* AboutViewController.swift in Sources */,
+				8B5377FA1BAD67CB0006D094 /* HomeConnectionsTableViewController.swift in Sources */,
+				8B6682C61BB2C99B00BDB79F /* DayTwoViewController.swift in Sources */,
 				CCB22AC41B84956A00B7CB76 /* Connected_Economy.xcdatamodeld in Sources */,
+				8B59FD171BB1478900562F8F /* CongratulationsViewController.swift in Sources */,
+				8BF8C6A11BAC3AB300530994 /* RundownViewController.swift in Sources */,
+				8BF8C69F1BAC1E1F00530994 /* UIImageViewIDB.m in Sources */,
+				8BF8C69C1BAC036800530994 /* IDBytesManager.m in Sources */,
+				8B9D698D1BB1853A0041A14F /* ConnectionProfileViewController.swift in Sources */,
 				CC2225331B8F87160011F831 /* LeaderboardTabBarController.swift in Sources */,
+				8BE6D1861BACF7D100E2E96D /* User.m in Sources */,
+				8BA421811BB2FF4400458687 /* TodayLeaderBoardTableViewController.swift in Sources */,
+				8B9D698B1BB16F640041A14F /* MyProfileViewController.swift in Sources */,
+				8BD2663C1BB0F67400E509ED /* RegisterViewController.swift in Sources */,
 				CC32F1521B84D041007F7238 /* HomeController.swift in Sources */,
+				8B59C9CB1BAFFD91000314C8 /* MyQRCodeViewController.swift in Sources */,
 				CCB22ABE1B84956A00B7CB76 /* ViewController.swift in Sources */,
+				8B6682C41BB2BD6F00BDB79F /* DayOneTableViewController.swift in Sources */,
 				CCB22ABC1B84956A00B7CB76 /* AppDelegate.swift in Sources */,
+				8BA4217F1BB2F5F600458687 /* AllTimeTableViewController.swift in Sources */,
+				8BC547251BB05BB800B79D96 /* LoginViewController.swift in Sources */,
+				8B5377F81BAD66EA0006D094 /* ConnectionTableViewCell.swift in Sources */,
+				8B59C9C91BAFF7EC000314C8 /* ConnectionsTableViewControler.swift in Sources */,
+				8B63433D1BB2D8C400D7FD4E /* DayThreeViewController.swift in Sources */,
 				CC1003631B84973A0055446D /* SWRevealViewController.m in Sources */,
+				8BA4217D1BB2F4D400458687 /* LeaderBoardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,9 +633,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -494,9 +679,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -517,9 +703,13 @@
 		};
 		CCB22AE41B84956A00B7CB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF7F4A70FE108AB5BFDA033 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -528,19 +718,26 @@
 					/Users/Firza/Downloads/FacebookSDKs,
 				);
 				INFOPLIST_FILE = "Connected Economy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-Economy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vesperia.id.idbyte;
+				PRODUCT_NAME = "IdByte Connect";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Connected Economy/Connected Economy-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CCB22AE51B84956A00B7CB76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE01714FECC74EB0EE9CB3B /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gilang Bhagaskara (LM3646D5FX)";
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -549,10 +746,13 @@
 					/Users/Firza/Downloads/FacebookSDKs,
 				);
 				INFOPLIST_FILE = "Connected Economy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "firza.project.Connected-Economy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vesperia.id.idbyte;
+				PRODUCT_NAME = "IdByte Connect";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Connected Economy/Connected Economy-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

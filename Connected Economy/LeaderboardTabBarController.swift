@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LeaderboardTabBarController: UITabBarController {
+class LeaderboardTabBarController: UIViewController {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
@@ -23,10 +23,24 @@ class LeaderboardTabBarController: UITabBarController {
         }
     }
     
+    var containerTabBarController:UITabBarController!
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "embedTab") {
+            self.containerTabBarController = segue.destinationViewController as! UITabBarController
+        }
+        super.prepareForSegue(segue ,sender: sender)
+    }
+    
+    @IBAction func changeTab(sender: AnyObject) {
+        self.containerTabBarController.selectedIndex = sender.selectedSegmentIndex
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+  
     
 }
