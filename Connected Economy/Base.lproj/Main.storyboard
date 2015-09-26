@@ -84,6 +84,13 @@
                                     <constraint firstAttribute="width" constant="341" id="ku4-U7-51E"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXM-4J-c7r">
+                                <rect key="frame" x="196" y="506" width="209" height="30"/>
+                                <state key="normal" title="I don't have Facebook account"/>
+                                <connections>
+                                    <action selector="btnNoFbPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ihx-QM-gLC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.94117647058823528" green="0.3529411764705882" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
@@ -623,7 +630,7 @@ Join us at our </string>
                                     <fragment content="Name">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="20" name="GothamBold"/>
+                                            <font key="NSFont" metaFont="system" size="20"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                             <integer key="NSUnderline" value="1"/>
@@ -642,7 +649,7 @@ Join us at our </string>
                                     <fragment content="Latest Connections">
                                         <attributes>
                                             <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="GothamBold"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                             <integer key="NSUnderline" value="1"/>
                                         </attributes>
@@ -660,7 +667,7 @@ Join us at our </string>
                                     <fragment content="Company">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="18" name="GothamLight"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -678,7 +685,7 @@ Join us at our </string>
                                     <fragment content="Job">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="15" name="GothamLight"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -1616,7 +1623,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="one:" destination="yBB-BI-s3E" eventType="touchUpInside" id="bOs-Uq-rBR"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmD-iD-a8A">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmD-iD-a8A">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1626,7 +1633,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Chariman BEKRAF)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8a-F4-niZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Chairman BEKRAF)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8a-F4-niZ">
                                                     <rect key="frame" x="14" y="89" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1694,7 +1701,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="two:" destination="yBB-BI-s3E" eventType="touchUpInside" id="3l5-Lo-amS"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usV-UV-6DG">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usV-UV-6DG">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1759,7 +1766,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="three:" destination="yBB-BI-s3E" eventType="touchUpInside" id="gaB-Cl-iKj"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-mn-g2N">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-mn-g2N">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1831,7 +1838,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="four:" destination="yBB-BI-s3E" eventType="touchUpInside" id="XXK-lA-vLe"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lya-SQ-0uD">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lya-SQ-0uD">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1841,13 +1848,13 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Moderator)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEH-Ul-yuK">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEH-Ul-yuK">
                                                     <rect key="frame" x="14" y="118" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Daniel Rembeth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLl-z6-LyY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLl-z6-LyY">
                                                     <rect key="frame" x="14" y="98" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3544,7 +3551,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -3563,7 +3570,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -3796,7 +3803,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEZ-TI-eVm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEZ-TI-eVm">
                                 <rect key="frame" x="199" y="435" width="200" height="16"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3911,7 +3918,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -3930,7 +3937,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -4171,7 +4178,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -4190,7 +4197,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -4959,8 +4966,8 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
         <image name="vesperia" width="897" height="456"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gdc-vE-doJ"/>
         <segue reference="HHs-4r-deG"/>
+        <segue reference="Gdc-vE-doJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
