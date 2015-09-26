@@ -19,7 +19,7 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     
     
     var params : AnyObject{
-        return ["name" : self.name!, "password" : "123456", "email" : self.email!, "url_photo" : self.urlPhoto!, "job" : self.companyTextField.text!, "job_position" : self.positionTextField!.text!, "phone" : self.phoneTextField.text!, "twitter" : "twitter", "facebook" : self.fbId!, "grant_type":"password"] as! AnyObject
+        return ["name" : self.name!, "password" : "123456", "email" : self.emailTextField.text!, "url_photo" : self.urlPhoto!, "job" : self.companyTextField.text!, "job_position" : self.positionTextField!.text!, "phone" : self.phoneTextField.text!, "twitter" : "twitter", "facebook" : self.fbId!, "grant_type":"password"] as! AnyObject
     }
     
     
@@ -46,6 +46,7 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     
     func login()
     {
+        IDBytesManager.sharedInstance().email = self.emailTextField.text!
         IDBytesManager.sharedInstance().requestManager().POST("/auth/login", parameters: params, success: { [weak self] (op, responseObject) -> Void in
             if(self != nil){
             IDBytesManager.sharedInstance().token = "Bearer " + (responseObject["token"] as! String)
@@ -63,7 +64,6 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     var fbId:String?
     var email:String?
     var name:String?
-    var editable:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +76,6 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
         self.phoneTextField.delegate = self
         self.companyTextField.delegate = self
         self.positionTextField.delegate = self
-        self.emailTextField.enabled = self.editable
         
     }
     

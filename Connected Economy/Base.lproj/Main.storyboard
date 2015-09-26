@@ -3713,7 +3713,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e.g email@domain.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RtH-2D-MlL">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e.g email@domain.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RtH-2D-MlL">
                                                     <rect key="frame" x="55" y="21" width="502" height="30"/>
                                                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4959,7 +4959,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
         <image name="vesperia" width="897" height="456"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gdc-vE-doJ"/>
+        <segue reference="3Ce-Yz-qdw"/>
         <segue reference="HHs-4r-deG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

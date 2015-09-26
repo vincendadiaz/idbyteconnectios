@@ -28,7 +28,6 @@ class LoginViewController: UIViewController {
     var name : String?
     var email : String?
     var fbId : String?
-    var editable : Bool = false
 
 
     
@@ -37,14 +36,15 @@ class LoginViewController: UIViewController {
         if((FBSDKAccessToken.currentAccessToken()) != nil){
             FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
                 if (error == nil){
-                    if(result["email"] == nil)
+                    print(result["email"])
+                    let val = result["email"]!
+                    if(val == nil)
                     {
                         self.urlPhoto = result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as! String
                         self.name = result["name"] as! String
                         self.fbId = result["id"] as! String
                         self.email = ""
-                        self.editable = true
-                        self.performSegueWithIdentifier("loginSuccess", sender: self)
+                        self.performSegueWithIdentifier("register", sender: self)
                     }else{
                     //var params: NSDictionary = ["keywords" : self.keyword!]
                     var email:String = result["email"] as! String
@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
                     self.urlPhoto = result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as! String
                     self.name = result["name"] as! String
                     self.fbId = result["id"] as! String
-                    self.email = result["email"] as! String
+                    self.email = email
                     IDBytesManager.sharedInstance().requestManager().POST("/auth/login", parameters: params, success: { [weak self] (op, responseObject) -> Void in
                         if(self != nil){
                             IDBytesManager.sharedInstance().token = "Bearer " + (responseObject["token"] as! String)
@@ -103,7 +103,6 @@ class LoginViewController: UIViewController {
             vc.fbId = self.fbId
             vc.email = self.email
             vc.urlPhoto = self.urlPhoto
-            vc.editable = self.editable
             
         }
         super.prepareForSegue(segue ,sender: sender)
