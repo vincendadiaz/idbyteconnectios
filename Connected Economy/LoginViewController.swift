@@ -28,6 +28,8 @@ class LoginViewController: UIViewController {
     var name : String?
     var email : String?
     var fbId : String?
+    var editable : Bool = false
+
 
     
     
@@ -35,6 +37,15 @@ class LoginViewController: UIViewController {
         if((FBSDKAccessToken.currentAccessToken()) != nil){
             FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
                 if (error == nil){
+                    if(result["email"] == nil)
+                    {
+                        self.urlPhoto = result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as! String
+                        self.name = result["name"] as! String
+                        self.fbId = result["id"] as! String
+                        self.email = ""
+                        self.editable = true
+                        self.performSegueWithIdentifier("loginSuccess", sender: self)
+                    }else{
                     //var params: NSDictionary = ["keywords" : self.keyword!]
                     var email:String = result["email"] as! String
                     IDBytesManager.sharedInstance().email = email
@@ -59,6 +70,7 @@ class LoginViewController: UIViewController {
                                 self!.view.makeToast("error")
                                 }
                             }
+                        }
                     }
 
                 }
@@ -91,6 +103,7 @@ class LoginViewController: UIViewController {
             vc.fbId = self.fbId
             vc.email = self.email
             vc.urlPhoto = self.urlPhoto
+            vc.editable = self.editable
             
         }
         super.prepareForSegue(segue ,sender: sender)

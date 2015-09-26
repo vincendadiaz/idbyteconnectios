@@ -24,14 +24,21 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     
     
     @IBAction func sumbit(sender: AnyObject) {
+        if(self.emailTextField.text!.characters.count > 0 && self.phoneTextField.text!.characters.count > 0 && self.companyTextField.text!.characters.count > 0 && self.positionTextField.text!.characters.count > 0){
         IDBytesManager.sharedInstance().requestManager().POST("/auth/register", parameters: self.params, success: {[weak self] (op,responseObject) -> Void in
             if(self != nil){
                 self!.login()
             }
             }) {[weak self] (op, error) -> Void in
                 if(self != nil){
-                self!.view.makeToast("error")
+                    self!.login()
                 }
+        }
+        }
+        else
+        {
+            self.view.makeToast("Isian tidak lengkap")
+
         }
         
 
@@ -56,7 +63,7 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     var fbId:String?
     var email:String?
     var name:String?
-    
+    var editable:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +76,7 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
         self.phoneTextField.delegate = self
         self.companyTextField.delegate = self
         self.positionTextField.delegate = self
+        self.emailTextField.enabled = self.editable
         
     }
     

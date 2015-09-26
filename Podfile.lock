@@ -1,0 +1,84 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.2.2):
+    - Bolts/AppLinks (= 1.2.2)
+    - Bolts/Tasks (= 1.2.2)
+  - Bolts/AppLinks (1.2.2):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.2)
+  - FBSDKCoreKit (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.6.0)
+    - FBSDKCoreKit/no-arc (= 4.6.0)
+  - FBSDKCoreKit/arc (4.6.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.6.0):
+    - FBSDKCoreKit
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
+  - MTBBarcodeScanner (1.8.1)
+  - Parse (1.8.4):
+    - Bolts/Tasks (>= 1.2.2)
+  - ParseCrashReporting (1.8.4):
+    - Bolts/Tasks (>= 1.2.2)
+    - Parse (~> 1.8.4)
+  - ParseFacebookUtilsV4 (1.8.4):
+    - Bolts/Tasks (>= 1.2.2)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+    - Parse (~> 1.8.4)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - Toast (2.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Mantle (~> 1.5)
+  - MTBBarcodeScanner
+  - Parse
+  - ParseCrashReporting
+  - ParseFacebookUtilsV4
+  - ParseUI
+  - Toast
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  FBSDKCoreKit: 9954492d90c5fd65ae831395697a1660360d61f1
+  FBSDKLoginKit: 3d07febbfa884b9878cacba54f705bb41f07d4b6
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
+  MTBBarcodeScanner: 4b68473960d351a4359fafd4c9871790ad61cb5a
+  Parse: c09d6efe4b2eea752765bc6f365a55516d909079
+  ParseCrashReporting: 9461c69a10e648e22cefc5537eecb358b41499f1
+  ParseFacebookUtilsV4: 888a71305d28e883d4e60cc367544f7bae13223a
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+
+COCOAPODS: 0.37.2
