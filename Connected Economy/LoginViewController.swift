@@ -111,7 +111,7 @@ class LoginViewController: UIViewController {
             vc.fbId = self.fbId
             vc.email = self.email
             vc.urlPhoto = self.urlPhoto
-            
+            print("lalalalalabiar katanya kalo ngelog gak ngecrash")
         }
         super.prepareForSegue(segue ,sender: sender)
     }

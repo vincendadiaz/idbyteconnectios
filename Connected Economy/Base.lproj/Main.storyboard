@@ -24,6 +24,7 @@
             <string>GothamBold</string>
             <string>GothamBold</string>
             <string>GothamBold</string>
+            <string>GothamBold</string>
         </mutableArray>
         <mutableArray key="GothamLight.ttf">
             <string>GothamLight</string>
@@ -3508,28 +3509,10 @@ Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eaX-q6-aKV">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="164"/>
                                 </imageView>
-                                <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLi-m0-yMf">
+                                <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLi-m0-yMf">
                                     <rect key="frame" x="0.0" y="117" width="600" height="47"/>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZg-pZ-QU7">
-                                    <rect key="frame" x="169" y="129" width="261" height="21"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="261" id="0C9-Iz-jLg"/>
-                                    </constraints>
-                                    <attributedString key="attributedText">
-                                        <fragment content="Name">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" metaFont="system" size="17"/>
-                                                <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                                <integer key="NSUnderline" value="1"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJB-32-OVP">
                                     <rect key="frame" x="8" y="172" width="109" height="24"/>
                                     <constraints>
@@ -3548,16 +3531,28 @@ Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
                                     </attributedString>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Insert your name here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwD-1P-ada">
+                                    <rect key="frame" x="86" y="126" width="422" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="XTR-vD-hX8"/>
+                                    </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="eaX-q6-aKV" firstAttribute="leading" secondItem="TWT-ur-uLQ" secondAttribute="leading" id="0Nf-QY-Pa6"/>
                                 <constraint firstAttribute="trailing" secondItem="eaX-q6-aKV" secondAttribute="trailing" id="1xO-8X-0h7"/>
-                                <constraint firstItem="jZg-pZ-QU7" firstAttribute="centerX" secondItem="TWT-ur-uLQ" secondAttribute="centerX" id="F9X-s7-a8M"/>
+                                <constraint firstItem="iwD-1P-ada" firstAttribute="centerY" secondItem="zLi-m0-yMf" secondAttribute="centerY" id="Ptj-Bx-uj0"/>
                                 <constraint firstItem="uJB-32-OVP" firstAttribute="leading" secondItem="TWT-ur-uLQ" secondAttribute="leadingMargin" id="blS-rS-nSY"/>
+                                <constraint firstItem="uJB-32-OVP" firstAttribute="top" secondItem="iwD-1P-ada" secondAttribute="bottom" constant="16" id="kco-gu-9h2"/>
                                 <constraint firstAttribute="bottom" secondItem="uJB-32-OVP" secondAttribute="bottom" constant="12" id="qG9-nB-UYy"/>
+                                <constraint firstAttribute="trailing" secondItem="iwD-1P-ada" secondAttribute="trailing" constant="92" id="rNp-m4-Ekd"/>
                                 <constraint firstItem="eaX-q6-aKV" firstAttribute="top" secondItem="TWT-ur-uLQ" secondAttribute="top" id="vCq-3y-ljG"/>
                                 <constraint firstItem="uJB-32-OVP" firstAttribute="top" secondItem="eaX-q6-aKV" secondAttribute="bottom" constant="8" symbolic="YES" id="wny-cz-5QT"/>
+                                <constraint firstItem="iwD-1P-ada" firstAttribute="leading" secondItem="TWT-ur-uLQ" secondAttribute="leading" constant="86" id="xnh-K1-NeL"/>
                             </constraints>
                         </view>
                         <sections>
@@ -3741,7 +3736,7 @@ Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
                     <connections>
                         <outlet property="companyTextField" destination="5s2-Ub-zca" id="hC0-OB-G4x"/>
                         <outlet property="emailTextField" destination="RtH-2D-MlL" id="eeK-Ai-Lcr"/>
-                        <outlet property="nameLabel" destination="jZg-pZ-QU7" id="tB9-Qa-Vnr"/>
+                        <outlet property="nameTextField" destination="iwD-1P-ada" id="Ycj-6i-EL0"/>
                         <outlet property="phoneTextField" destination="vSy-f7-TNW" id="Gc9-8H-Huz"/>
                         <outlet property="positionTextField" destination="xEP-La-SE8" id="q12-Xh-nTh"/>
                         <outlet property="profileImage" destination="eaX-q6-aKV" id="xkx-ka-pc6"/>
@@ -4937,7 +4932,7 @@ Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="HHs-4r-deG"/>
-        <segue reference="Gdc-vE-doJ"/>
+        <segue reference="3Ce-Yz-qdw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
