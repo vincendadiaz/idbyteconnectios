@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C81F4772C7C008FCE5890EF"
+               BlueprintIdentifier = "29529EF92A9803E70A0C43AB"
                BuildableName = "ParseCrashReporting.framework"
                BlueprintName = "Pods-ParseCrashReporting"
                ReferencedContainer = "container:Pods.xcodeproj">

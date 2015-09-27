@@ -84,14 +84,23 @@
                                     <constraint firstAttribute="width" constant="341" id="ku4-U7-51E"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXM-4J-c7r">
+                                <rect key="frame" x="196" y="506" width="209" height="30"/>
+                                <state key="normal" title="I don't have Facebook account"/>
+                                <connections>
+                                    <action selector="dontHaveFB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q64-LT-WJ2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.94117647058823528" green="0.3529411764705882" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="PXM-4J-c7r" firstAttribute="centerX" secondItem="hDr-bP-20M" secondAttribute="centerX" id="EKe-wR-mhR"/>
                             <constraint firstItem="hDr-bP-20M" firstAttribute="centerX" secondItem="eTL-Yz-bPu" secondAttribute="centerX" id="JeO-Vn-CWe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hDr-bP-20M" secondAttribute="bottom" constant="107" id="Ofk-0x-GfI"/>
                             <constraint firstItem="hDr-bP-20M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RFe-Ua-1dW"/>
                             <constraint firstItem="eTL-Yz-bPu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="106" id="Uth-xM-VcY"/>
+                            <constraint firstItem="PXM-4J-c7r" firstAttribute="top" secondItem="hDr-bP-20M" secondAttribute="bottom" constant="13" id="icw-5L-X3o"/>
                         </constraints>
                     </view>
                     <connections>
@@ -623,7 +632,7 @@ Join us at our </string>
                                     <fragment content="Name">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="20" name="GothamBold"/>
+                                            <font key="NSFont" metaFont="system" size="20"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                             <integer key="NSUnderline" value="1"/>
@@ -642,7 +651,7 @@ Join us at our </string>
                                     <fragment content="Latest Connections">
                                         <attributes>
                                             <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="GothamBold"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                             <integer key="NSUnderline" value="1"/>
                                         </attributes>
@@ -660,7 +669,7 @@ Join us at our </string>
                                     <fragment content="Company">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="18" name="GothamLight"/>
+                                            <font key="NSFont" metaFont="system" size="18"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -678,7 +687,7 @@ Join us at our </string>
                                     <fragment content="Job">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="15" name="GothamLight"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -1616,7 +1625,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="one:" destination="yBB-BI-s3E" eventType="touchUpInside" id="bOs-Uq-rBR"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmD-iD-a8A">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmD-iD-a8A">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1626,7 +1635,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Chariman BEKRAF)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8a-F4-niZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Chairman BEKRAF)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8a-F4-niZ">
                                                     <rect key="frame" x="14" y="89" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1694,7 +1703,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="two:" destination="yBB-BI-s3E" eventType="touchUpInside" id="3l5-Lo-amS"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usV-UV-6DG">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usV-UV-6DG">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1759,7 +1768,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="three:" destination="yBB-BI-s3E" eventType="touchUpInside" id="gaB-Cl-iKj"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-mn-g2N">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-mn-g2N">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1831,7 +1840,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="four:" destination="yBB-BI-s3E" eventType="touchUpInside" id="XXK-lA-vLe"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lya-SQ-0uD">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lya-SQ-0uD">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1841,13 +1850,13 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Moderator)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEH-Ul-yuK">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEH-Ul-yuK">
                                                     <rect key="frame" x="14" y="118" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Daniel Rembeth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLl-z6-LyY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLl-z6-LyY">
                                                     <rect key="frame" x="14" y="98" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1912,7 +1921,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="five:" destination="yBB-BI-s3E" eventType="touchUpInside" id="HJr-1c-L4u"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvx-xO-l5c">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvx-xO-l5c">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -1962,14 +1971,14 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Step of Funding" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bar-sn-xIE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The First Step of Funding" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bar-sn-xIE">
                                                     <rect key="frame" x="14" y="8" width="504" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Tugce Ergu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24e-0l-8vz">
-                                                    <rect key="frame" x="14" y="29" width="504" height="19"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="- Tugce Ergul" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24e-0l-8vz">
+                                                    <rect key="frame" x="14" y="29" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1990,7 +1999,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="six:" destination="yBB-BI-s3E" eventType="touchUpInside" id="XlA-Du-JUc"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChQ-40-i66">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChQ-40-i66">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2000,26 +2009,20 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  ( Dreadout, and Emtek)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUa-6M-Th8">
-                                                    <rect key="frame" x="14" y="89" width="504" height="20"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Rachmad Imron" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOn-qa-Aq2">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOn-qa-Aq2">
                                                     <rect key="frame" x="14" y="70" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Angelyn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ot8-8J-8bU">
-                                                    <rect key="frame" x="14" y="117" width="504" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="- Dondi Hananto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ot8-8J-8bU">
+                                                    <rect key="frame" x="14" y="70" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  (Moderator)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Um-IE-KVJ">
-                                                    <rect key="frame" x="14" y="139" width="504" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="  (Moderator)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Um-IE-KVJ">
+                                                    <rect key="frame" x="14" y="98" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -2029,14 +2032,11 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                 <constraint firstItem="24e-0l-8vz" firstAttribute="leading" secondItem="ubm-z3-A3q" secondAttribute="leadingMargin" constant="6" id="27A-OF-y1c"/>
                                                 <constraint firstItem="ChQ-40-i66" firstAttribute="leading" secondItem="Bar-sn-xIE" secondAttribute="trailing" constant="-4" id="9gt-CG-xQu"/>
                                                 <constraint firstItem="xgt-fx-Oac" firstAttribute="bottom" secondItem="ubm-z3-A3q" secondAttribute="bottomMargin" constant="-77" id="9nU-VY-NMW"/>
-                                                <constraint firstItem="SUa-6M-Th8" firstAttribute="trailing" secondItem="qOn-qa-Aq2" secondAttribute="trailing" id="E8c-Pb-09R"/>
                                                 <constraint firstItem="qOn-qa-Aq2" firstAttribute="centerY" secondItem="ubm-z3-A3q" secondAttribute="centerY" constant="-19.5" id="Evi-gw-dR0"/>
                                                 <constraint firstItem="xgt-fx-Oac" firstAttribute="top" secondItem="ChQ-40-i66" secondAttribute="bottom" constant="15" id="GIl-YU-y6r"/>
                                                 <constraint firstItem="Bar-sn-xIE" firstAttribute="top" secondItem="ubm-z3-A3q" secondAttribute="topMargin" id="JEH-ND-uPg"/>
-                                                <constraint firstItem="SUa-6M-Th8" firstAttribute="leading" secondItem="qOn-qa-Aq2" secondAttribute="leading" id="KF8-yf-gcy"/>
                                                 <constraint firstItem="9Um-IE-KVJ" firstAttribute="leading" secondItem="Ot8-8J-8bU" secondAttribute="leading" id="OIX-DE-Zjw"/>
                                                 <constraint firstItem="9Um-IE-KVJ" firstAttribute="top" secondItem="Ot8-8J-8bU" secondAttribute="bottom" constant="2" id="PIC-fT-Q2p"/>
-                                                <constraint firstItem="Ot8-8J-8bU" firstAttribute="leading" secondItem="SUa-6M-Th8" secondAttribute="leading" id="TAf-zi-eWs"/>
                                                 <constraint firstItem="ChQ-40-i66" firstAttribute="leading" secondItem="24e-0l-8vz" secondAttribute="trailing" constant="-4" id="aaI-Xq-ICJ"/>
                                                 <constraint firstItem="Ot8-8J-8bU" firstAttribute="trailing" secondItem="9Um-IE-KVJ" secondAttribute="trailing" id="adu-rC-iEn"/>
                                                 <constraint firstItem="qOn-qa-Aq2" firstAttribute="leading" secondItem="CQO-JI-C5K" secondAttribute="leading" constant="10" id="dCa-Oj-WTH"/>
@@ -2044,13 +2044,10 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                 <constraint firstItem="24e-0l-8vz" firstAttribute="centerY" secondItem="ubm-z3-A3q" secondAttribute="centerY" constant="-61" id="f9T-KF-bS1"/>
                                                 <constraint firstItem="ChQ-40-i66" firstAttribute="top" secondItem="Bar-sn-xIE" secondAttribute="top" constant="35" id="g4z-GT-6sR"/>
                                                 <constraint firstItem="Bar-sn-xIE" firstAttribute="leading" secondItem="ubm-z3-A3q" secondAttribute="leadingMargin" constant="6" id="hAL-rm-idO"/>
-                                                <constraint firstItem="SUa-6M-Th8" firstAttribute="centerY" secondItem="xgt-fx-Oac" secondAttribute="centerY" id="hRR-ZU-yER"/>
                                                 <constraint firstItem="xgt-fx-Oac" firstAttribute="leading" secondItem="24e-0l-8vz" secondAttribute="trailing" constant="17" id="hnH-13-y1q"/>
                                                 <constraint firstItem="CQO-JI-C5K" firstAttribute="trailing" secondItem="24e-0l-8vz" secondAttribute="trailing" constant="-10" id="iWS-f9-whX"/>
                                                 <constraint firstItem="qOn-qa-Aq2" firstAttribute="trailing" secondItem="CQO-JI-C5K" secondAttribute="trailing" constant="10" id="k7X-h3-fXt"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="ChQ-40-i66" secondAttribute="trailing" constant="5" id="lH4-Hb-EpS"/>
-                                                <constraint firstItem="Ot8-8J-8bU" firstAttribute="top" secondItem="SUa-6M-Th8" secondAttribute="bottom" constant="8" symbolic="YES" id="lID-bp-fi5"/>
-                                                <constraint firstItem="Ot8-8J-8bU" firstAttribute="trailing" secondItem="SUa-6M-Th8" secondAttribute="trailing" id="mAZ-xm-GtU"/>
                                                 <constraint firstItem="CQO-JI-C5K" firstAttribute="centerY" secondItem="xgt-fx-Oac" secondAttribute="centerY" constant="-39" id="mH1-6W-gnF"/>
                                                 <constraint firstItem="ChQ-40-i66" firstAttribute="centerX" secondItem="xgt-fx-Oac" secondAttribute="centerX" id="rf6-hj-0pw"/>
                                                 <constraint firstItem="24e-0l-8vz" firstAttribute="top" secondItem="Bar-sn-xIE" secondAttribute="bottom" id="xel-QA-Wjp"/>
@@ -2065,7 +2062,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support ecosystem, how older startups is supporting startups" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1W-rb-w6S">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multi Chanel Network" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1W-rb-w6S">
                                                     <rect key="frame" x="14" y="8" width="504" height="62"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
@@ -2083,7 +2080,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="seven:" destination="yBB-BI-s3E" eventType="touchUpInside" id="k6Y-k8-wbg"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ef-hq-prC">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ef-hq-prC">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2151,7 +2148,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="eight:" destination="yBB-BI-s3E" eventType="touchUpInside" id="dBg-V7-Hn0"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRH-ib-KrS">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRH-ib-KrS">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2191,7 +2188,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Navigating Linkedin to Kick-start Your Business and Brand" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKQ-3a-fnT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Digital Video and Connected Consumer" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKQ-3a-fnT">
                                                     <rect key="frame" x="14" y="8" width="504" height="62"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
@@ -2207,7 +2204,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="nine:" destination="yBB-BI-s3E" eventType="touchUpInside" id="BA9-Qk-EpS"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ5-0e-0dO">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ5-0e-0dO">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2217,7 +2214,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- LinkedIn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3T-4l-gTg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Gautam Talwar, VP Partnerships, Disney Maker Studios" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3T-4l-gTg">
                                                     <rect key="frame" x="14" y="70" width="504" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2380,7 +2377,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                         <action selector="two:" destination="xrf-wg-Hng" eventType="touchUpInside" id="Uz9-qS-edX"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLC-b7-x2t">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLC-b7-x2t">
                                                     <rect key="frame" x="514" y="60" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2972,7 +2969,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                         <action selector="one:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="idP-v5-Ssl"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhv-VG-1Zu">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhv-VG-1Zu">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -2982,7 +2979,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Oreedoo" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZl-dt-MzZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Erik Meijer, Startegic Brand Advisor, OOredoo South East Asia" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZl-dt-MzZ">
                                                     <rect key="frame" x="14" y="84" width="500" height="90"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2998,7 +2995,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                 <constraint firstItem="mLc-TZ-lPp" firstAttribute="leading" secondItem="JZl-dt-MzZ" secondAttribute="trailing" constant="21" id="IRs-lB-xTn"/>
                                                 <constraint firstItem="si1-iH-c2E" firstAttribute="top" secondItem="hhN-AT-t8d" secondAttribute="topMargin" id="Lz1-dT-gv6"/>
                                                 <constraint firstItem="mLc-TZ-lPp" firstAttribute="bottom" secondItem="hhN-AT-t8d" secondAttribute="bottomMargin" constant="-77" id="URN-QA-UMZ"/>
-                                                <constraint firstItem="JZl-dt-MzZ" firstAttribute="centerY" secondItem="hhN-AT-t8d" secondAttribute="centerY" constant="1.5" id="bsm-4A-lPx"/>
+                                                <constraint firstItem="JZl-dt-MzZ" firstAttribute="centerY" secondItem="hhN-AT-t8d" secondAttribute="centerY" constant="2" id="bsm-4A-lPx"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="vhv-VG-1Zu" secondAttribute="trailing" constant="5" id="cPr-Yb-7Q8"/>
                                                 <constraint firstItem="si1-iH-c2E" firstAttribute="leading" secondItem="hhN-AT-t8d" secondAttribute="leadingMargin" constant="6" id="k7s-35-9Kv"/>
                                                 <constraint firstItem="vhv-VG-1Zu" firstAttribute="leading" secondItem="si1-iH-c2E" secondAttribute="trailing" constant="-4" id="vv2-fv-y15"/>
@@ -3031,7 +3028,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                         <action selector="two:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="qSG-BT-T9D"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAA-OI-VKp">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAA-OI-VKp">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3041,7 +3038,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="VP of PWC" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0b-i1-7WE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Chairil Tarunajaya, PWC Consulting Indonesia" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0b-i1-7WE">
                                                     <rect key="frame" x="14" y="84" width="500" height="90"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3090,7 +3087,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                         <action selector="three:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="TgV-lM-zP2"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2g-7I-FXR">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2g-7I-FXR">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3100,7 +3097,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Periscope" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Seh-LU-BaJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Roy Simangunsong, Head of Indonesia Twitter" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Seh-LU-BaJ">
                                                     <rect key="frame" x="14" y="84" width="500" height="90"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3149,7 +3146,7 @@ Alex Rusli, CEO, Indosat	</string>
                                                         <action selector="four:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="YUe-RZ-tkc"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-l6-kFL">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-l6-kFL">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3159,10 +3156,8 @@ Alex Rusli, CEO, Indosat	</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsD-Qb-0ff">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jiro, JKT48 Dentsu" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsD-Qb-0ff">
                                                     <rect key="frame" x="14" y="84" width="500" height="90"/>
-                                                    <string key="text">Dentsu, AKB48, Warner Music, Guvera
-Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -3191,7 +3186,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How to get your apps into the hands of users" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6C-RT-u1r">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Running a Successful Business on Google Play" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6C-RT-u1r">
                                                     <rect key="frame" x="14" y="8" width="504" height="62"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
@@ -3210,7 +3205,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                         <action selector="five:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="TMN-ao-v66"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSK-cE-zQM">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSK-cE-zQM">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3220,8 +3215,10 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Google Playstore" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Q-UE-urg">
-                                                    <rect key="frame" x="14" y="84" width="500" height="90"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Q-UE-urg">
+                                                    <rect key="frame" x="14" y="84" width="771" height="90"/>
+                                                    <string key="text">David Yin, Business Development Manager - 
+Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -3235,7 +3232,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                 <constraint firstItem="KSK-cE-zQM" firstAttribute="centerX" secondItem="xLc-iu-PUK" secondAttribute="centerX" id="GGJ-0J-aQI"/>
                                                 <constraint firstItem="xLc-iu-PUK" firstAttribute="leading" secondItem="a1Q-UE-urg" secondAttribute="trailing" constant="21" id="PWe-y3-yde"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="KSK-cE-zQM" secondAttribute="trailing" constant="5" id="W6a-zX-Us5"/>
-                                                <constraint firstItem="a1Q-UE-urg" firstAttribute="centerY" secondItem="YKe-Q9-NRr" secondAttribute="centerY" constant="1.5" id="dBO-QO-D5X"/>
+                                                <constraint firstItem="a1Q-UE-urg" firstAttribute="centerY" secondItem="YKe-Q9-NRr" secondAttribute="centerY" constant="2" id="dBO-QO-D5X"/>
                                                 <constraint firstItem="KSK-cE-zQM" firstAttribute="top" secondItem="b6C-RT-u1r" secondAttribute="top" constant="35" id="e6Y-7D-oIu"/>
                                                 <constraint firstItem="xLc-iu-PUK" firstAttribute="bottom" secondItem="YKe-Q9-NRr" secondAttribute="bottomMargin" constant="-77" id="kNh-NT-9dh"/>
                                                 <constraint firstItem="a1Q-UE-urg" firstAttribute="leading" secondItem="b6C-RT-u1r" secondAttribute="leading" id="ueA-eQ-16h"/>
@@ -3249,57 +3246,6 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zcb-J1-u1I" id="NgZ-mf-7G4">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="eCommerce Accelerator Fireside Chat" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JC0-CK-Am3">
-                                                    <rect key="frame" x="14" y="8" width="504" height="62"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9U-l6-SuZ">
-                                                    <rect key="frame" x="535" y="84" width="30" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="JqG-86-15L"/>
-                                                        <constraint firstAttribute="width" secondItem="L9U-l6-SuZ" secondAttribute="height" multiplier="1:1" id="Oaz-Gj-KYn"/>
-                                                        <constraint firstAttribute="height" constant="30" id="Vcz-n3-CSM"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="aQ5-5W-xZY"/>
-                                                    </constraints>
-                                                    <state key="normal" title="Button" image="app_btn share rundown"/>
-                                                    <connections>
-                                                        <action selector="eight:" destination="yBB-BI-s3E" eventType="touchUpInside" id="coc-gQ-tMd"/>
-                                                        <action selector="six:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="poF-4Q-zXG"/>
-                                                    </connections>
-                                                </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J33-30-EgR">
-                                                    <rect key="frame" x="514" y="43" width="73" height="26"/>
-                                                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="26" id="X5V-Mm-7IW"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bukalapak, Traveloka, and Tiket" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rb-v9-sIA">
-                                                    <rect key="frame" x="14" y="84" width="500" height="90"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="9rb-v9-sIA" firstAttribute="trailing" secondItem="JC0-CK-Am3" secondAttribute="trailing" constant="-4" id="5Sb-e0-Q1f"/>
-                                                <constraint firstItem="L9U-l6-SuZ" firstAttribute="bottom" secondItem="NgZ-mf-7G4" secondAttribute="bottomMargin" constant="-77" id="5TX-Nq-Ixx"/>
-                                                <constraint firstItem="J33-30-EgR" firstAttribute="centerX" secondItem="L9U-l6-SuZ" secondAttribute="centerX" id="7sc-3m-STK"/>
-                                                <constraint firstItem="9rb-v9-sIA" firstAttribute="leading" secondItem="JC0-CK-Am3" secondAttribute="leading" id="9Ua-Ja-MEA"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="J33-30-EgR" secondAttribute="trailing" constant="5" id="Haz-k0-nE6"/>
-                                                <constraint firstItem="JC0-CK-Am3" firstAttribute="top" secondItem="NgZ-mf-7G4" secondAttribute="topMargin" id="N1c-6K-cG0"/>
-                                                <constraint firstItem="L9U-l6-SuZ" firstAttribute="top" secondItem="J33-30-EgR" secondAttribute="bottom" constant="15" id="O4T-fs-XNL"/>
-                                                <constraint firstItem="J33-30-EgR" firstAttribute="leading" secondItem="JC0-CK-Am3" secondAttribute="trailing" constant="-4" id="Pyy-ms-KQc"/>
-                                                <constraint firstItem="L9U-l6-SuZ" firstAttribute="leading" secondItem="9rb-v9-sIA" secondAttribute="trailing" constant="21" id="az2-f1-8nA"/>
-                                                <constraint firstItem="J33-30-EgR" firstAttribute="top" secondItem="JC0-CK-Am3" secondAttribute="top" constant="35" id="koV-ha-9ui"/>
-                                                <constraint firstItem="9rb-v9-sIA" firstAttribute="centerY" secondItem="NgZ-mf-7G4" secondAttribute="centerY" constant="1.5" id="mVE-7d-G4L"/>
-                                                <constraint firstItem="JC0-CK-Am3" firstAttribute="leading" secondItem="NgZ-mf-7G4" secondAttribute="leadingMargin" constant="6" id="r38-Fx-VDa"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xBr-Gg-Lhw">
@@ -3328,7 +3274,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                         <action selector="seven:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="crh-RQ-Eqx"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsL-0Z-zle">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsL-0Z-zle">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3338,7 +3284,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                     <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mandiri eCash, SevenEleven, Doku, Bank Indonesia" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-2d-qCe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mandiri eCash, Veritrans, Bank Indonesia" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-2d-qCe">
                                                     <rect key="frame" x="14" y="84" width="500" height="90"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3387,7 +3333,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                                         <action selector="eight:" destination="dS6-Wq-c8l" eventType="touchUpInside" id="WN4-Z5-bMc"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUk-0m-3HG">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUk-0m-3HG">
                                                     <rect key="frame" x="514" y="43" width="73" height="26"/>
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
@@ -3544,7 +3490,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -3563,7 +3509,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -3911,7 +3857,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -3930,7 +3876,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -4171,7 +4117,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Name">
                                             <attributes>
                                                 <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                 <integer key="NSUnderline" value="1"/>
@@ -4190,7 +4136,7 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
                                         <fragment content="Profile">
                                             <attributes>
                                                 <color key="NSColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="17" name="GothamBold"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.070000000298023224"/>
                                                 <integer key="NSUnderline" value="1"/>
                                             </attributes>
@@ -4959,8 +4905,8 @@ Jerry S Justianto, Director of Massima Group as Moderator</string>
         <image name="vesperia" width="897" height="456"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Ce-Yz-qdw"/>
         <segue reference="HHs-4r-deG"/>
+        <segue reference="Gdc-vE-doJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

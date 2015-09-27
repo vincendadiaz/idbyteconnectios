@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
         })
     }
     
+   
     var urlPhoto : String?
     var name : String?
     var email : String?
@@ -94,6 +95,13 @@ class LoginViewController: UIViewController {
     }
     
     
+    @IBAction func dontHaveFB(sender: AnyObject) {
+        self.urlPhoto = "http://i108.photobucket.com/albums/n11/ridwan_arvi/10506738_10150004552801856_220367501106153455_o.jpg"
+        self.name = "No Name"
+        self.fbId = "nofb"
+        self.email = ""
+        self.performSegueWithIdentifier("register", sender: self)
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "register") {

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF9B214AD643C3C7CB13DA24"
+               BlueprintIdentifier = "FDC42D48FAD7C472FE2677FF"
                BuildableName = "MTBBarcodeScanner.framework"
                BlueprintName = "Pods-MTBBarcodeScanner"
                ReferencedContainer = "container:Pods.xcodeproj">
