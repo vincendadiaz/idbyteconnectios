@@ -34,6 +34,12 @@ class MenuController: UITableViewController {
         }
         if(indexPath.row==6)
         {
+            if let requestUrl = NSURL(string: "http://kartoo.co") {
+                UIApplication.sharedApplication().openURL(requestUrl)
+            }
+        }
+        if(indexPath.row==7)
+        {
             IDBytesManager.sharedInstance().requestManager().GET("/auth/logout", parameters: nil, success: { [weak self] (op, responseObject) -> Void in
                 if(self != nil){
                     IDBytesManager.sharedInstance().logOut()
