@@ -56,7 +56,7 @@ class DayOneTableViewController: UITableViewController {
     @IBAction func three(sender: UIButton)
     {
         let time = "14.00"
-        let topic = "IoT For Innovation featuring Integrasia"
+        let topic = "IOT Innovation with Integrasia"
         let presenter = ""
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
@@ -194,7 +194,7 @@ class DayOneTableViewController: UITableViewController {
     {
         let time = "17.30"
         let topic = "Growing SME with eCommerce"
-        let presenter = "Achmad Zaky, Founder-CEO Bukalapak"
+        let presenter = "Achmad Zaky, Founder-CEO, Bukalapak"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         
@@ -218,7 +218,7 @@ class DayOneTableViewController: UITableViewController {
     {
         let time = "18.00"
         let topic = "Digital Video and Connected Consumer"
-        let presenter = "Gautam Talwar, VP Partnerships, Disney Maker Studios"
+        let presenter = "Gautam Talwar, VP Partnerships, Makers Studio"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         

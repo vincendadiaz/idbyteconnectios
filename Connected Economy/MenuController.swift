@@ -32,7 +32,7 @@ class MenuController: UITableViewController {
         {
             self.revealViewController().revealToggleAnimated(true)
         }
-        if(indexPath.row==3)
+        if(indexPath.row==6)
         {
             IDBytesManager.sharedInstance().requestManager().GET("/auth/logout", parameters: nil, success: { [weak self] (op, responseObject) -> Void in
                 if(self != nil){

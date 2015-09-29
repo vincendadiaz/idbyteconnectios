@@ -77,7 +77,48 @@ class HomeController: UIViewController {
         self.performSegueWithIdentifier("showMyProfile", sender: self)
     }
 
+    @IBAction func connectionClicked(sender: AnyObject) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("Connections")
+        let nvc = UINavigationController(rootViewController:vc)
+        nvc.navigationBar.tintColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        nvc.navigationBar.barTintColor = UIColor(red: 240/255, green: 90/255, blue: 34/255, alpha: 1)
+        let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        nvc.navigationBar.titleTextAttributes = titleDict as! [String : AnyObject]
+        self.revealViewController().setFrontViewController(nvc, animated:true)
+    }
     
+    @IBAction func leaderBoard(sender: AnyObject) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("Leaderboard")
+        
+        let nvc = UINavigationController(rootViewController:vc)
+        nvc.navigationBar.tintColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        nvc.navigationBar.barTintColor = UIColor(red: 240/255, green: 90/255, blue: 34/255, alpha: 1)
+        let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        nvc.navigationBar.titleTextAttributes = titleDict as! [String : AnyObject]
+
+        self.revealViewController().setFrontViewController(nvc, animated:true)
+
+    }
+    
+    
+    @IBAction func scheduleClicked(sender: AnyObject) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("Rundown")
+        
+        let nvc = UINavigationController(rootViewController:vc)
+        nvc.navigationBar.tintColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        nvc.navigationBar.barTintColor = UIColor(red: 240/255, green: 90/255, blue: 34/255, alpha: 1)
+        let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        nvc.navigationBar.titleTextAttributes = titleDict as! [String : AnyObject]
+
+        self.revealViewController().setFrontViewController(nvc, animated:true)
+
+    }
+    
+    @IBOutlet weak var leaderBoardClicked: UIButton!
+    @IBOutlet weak var youConnections: UIButton!
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "showMyProfile") {
             let vc: MyProfileViewController = segue.destinationViewController as! MyProfileViewController

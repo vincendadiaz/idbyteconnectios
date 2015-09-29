@@ -144,7 +144,7 @@ class DayThreeViewController: UITableViewController {
     {
         let time = "16.15"
         let topic = "Transporting Grass Root Movement For A Great Economic Growth"
-        let presenter = "Nadiem Kariem, Founder Gojek"
+        let presenter = "Nadiem Kariem, Founder Gojek and Fifi Aleyda Yahya, Anchor, Metro TV (Interviewer)"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         if let myWebsite = NSURL(string: "http://id-byte.com//")

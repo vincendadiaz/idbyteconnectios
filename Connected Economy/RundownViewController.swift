@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 class RundownViewController: UIViewController {
     
+    @IBOutlet weak var menuButton: UIBarButtonItem!
     var containerTabBarController:UITabBarController!
 
     @IBAction func changeTab(sender: AnyObject) {
@@ -18,7 +19,11 @@ class RundownViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
