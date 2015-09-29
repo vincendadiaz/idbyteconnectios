@@ -111,13 +111,13 @@ class QRScanViewController: UIViewController {
                 }) { [weak self] (op, error) -> Void in
                     if(self != nil)
                     {
-                        if(op.response.statusCode==404)
+                        if(op != nil && op.response != nil && op.response.statusCode == 401)
                     {
                         self!.view.makeToast("User not found", duration: 2.0 ,position: "bottom" )
-                    }else if(op.response.statusCode==409)
+                        }else if(op != nil && op.response != nil && op.response.statusCode == 409)
                     {
                         self!.view.makeToast("User is already your connection ", duration: 2.0 ,position: "bottom" )
-                    }else if(op.response.statusCode==503)
+                        }else if(op != nil && op.response != nil && op.response.statusCode == 401)
                     {
                         self!.view.makeToast("an error has happened", duration: 2.0 ,position: "bottom" )
 

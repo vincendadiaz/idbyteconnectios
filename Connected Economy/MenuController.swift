@@ -32,13 +32,7 @@ class MenuController: UITableViewController {
         {
             self.revealViewController().revealToggleAnimated(true)
         }
-        if(indexPath.row==6)
-        {
-            if let requestUrl = NSURL(string: "http://kartoo.co") {
-                UIApplication.sharedApplication().openURL(requestUrl)
-            }
-        }
-        if(indexPath.row==7)
+        if(indexPath.row==3)
         {
             IDBytesManager.sharedInstance().requestManager().GET("/auth/logout", parameters: nil, success: { [weak self] (op, responseObject) -> Void in
                 if(self != nil){

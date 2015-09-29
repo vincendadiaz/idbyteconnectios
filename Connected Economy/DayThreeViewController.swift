@@ -7,7 +7,7 @@
 //
 
 class DayThreeViewController: UITableViewController {
-
+    
     
     @IBAction func one(sender: UIButton)
     {
@@ -16,7 +16,7 @@ class DayThreeViewController: UITableViewController {
         let presenter = "Shinta Dhanuwardoyo, Chairwoman IDBYTE, Rudiantara, Minister of Communications and Informatics Indonesia"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
-
+        
         if let myWebsite = NSURL(string: "http://id-byte.com//")
         {
             let objectsToShare = [textToShare, myWebsite]
@@ -124,7 +124,7 @@ class DayThreeViewController: UITableViewController {
         let presenter = "Tri Rismaharini, Mayor of Surabaya, Ridwal Kamil, Mayor of Bandung, Danny Pomanto, Mayor of Makassar, Dick Van Motman, CEO Dentsu Aegis Network SEA"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
-
+        
         if let myWebsite = NSURL(string: "http://id-byte.com//")
         {
             let objectsToShare = [textToShare, myWebsite]

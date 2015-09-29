@@ -10,7 +10,7 @@ class DayTwoViewController: UITableViewController {
     @IBAction func one(sender: UIButton)
     {
         let time = "13.30"
-        let topic = "Mobile First Approach To Meet Indonesian Millenialls"
+        let topic = "Mobile First Approach To Meet Indonesian Millennials"
         let presenter = "Erik Meijer, Strategic Brand Advisor Oreedoo"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
@@ -142,7 +142,7 @@ class DayTwoViewController: UITableViewController {
     @IBAction func seven(sender: UIButton)
     {
         let time = "17.30"
-        let topic = "Fans, Tech and Love"
+        let topic = "Fan Engagement In The World of Football"
         let presenter = "Samantha Chen, Regional Sponsorships Sales Manager, Manchester United Ltd"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         

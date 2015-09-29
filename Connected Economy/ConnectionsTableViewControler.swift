@@ -10,17 +10,11 @@ import UIKit
 import Mantle
 
 class ConnectionsTableViewControler: UITableViewController {
-    @IBOutlet weak var menuButton: UIBarButtonItem!
     
     var user:NSArray = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if self.revealViewController() != nil {
-            menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
         var url = "/connections/"+IDBytesManager.sharedInstance().email+"/3000/0"
         IDBytesManager.sharedInstance().requestManager().GET(url, parameters: nil, success: { [weak self] (op, responseObject) -> Void in
             if(self != nil){

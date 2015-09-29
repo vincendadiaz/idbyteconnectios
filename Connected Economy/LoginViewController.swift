@@ -63,7 +63,7 @@ class LoginViewController: UIViewController {
                         }
                         }) { [weak self] (op, error) -> Void in
                             if(self != nil){
-                            if(op.response.statusCode==401)
+                            if(op != nil && op.response != nil && op.response.statusCode == 401)
                             {
                                 self!.performSegueWithIdentifier("register", sender: self)
                             }else

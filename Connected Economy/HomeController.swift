@@ -60,7 +60,7 @@ class HomeController: UIViewController {
             }
             }) { [weak self] (op, error) -> Void in
                 if(self != nil){
-                if(op.response.statusCode == 401)
+                if(op != nil && op.response != nil && op.response.statusCode == 401)
                 {
                     IDBytesManager.sharedInstance().logOut()
                     self!.dismissViewControllerAnimated(true, completion: nil)

@@ -8,7 +8,7 @@
 
 
 class DayOneTableViewController: UITableViewController {
-
+    
     @IBAction func one(sender: UIButton)
     {
         let time = "13.30"
@@ -56,7 +56,7 @@ class DayOneTableViewController: UITableViewController {
     @IBAction func three(sender: UIButton)
     {
         let time = "14.00"
-        let topic = "Foundation of Internet of Things"
+        let topic = "IoT For Innovation featuring Integrasia"
         let presenter = ""
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
@@ -103,7 +103,7 @@ class DayOneTableViewController: UITableViewController {
     {
         let time = "15.00"
         let topic = "How Tech Reshapes Indonesian Culture and Consumption"
-        let presenter = "Daniel Tumiwa, CEO, Indonesia, OLX"
+        let presenter = "Daniel Tumiwa, Chairman, idEA"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         
@@ -193,8 +193,8 @@ class DayOneTableViewController: UITableViewController {
     @IBAction func nine(sender: UIButton)
     {
         let time = "17.30"
-        let topic = "Digital Video and Connected Consumer"
-        let presenter = "Gautam Talwar, VP Partnerships, Disney Maker Studios"
+        let topic = "Growing SME with eCommerce"
+        let presenter = "Achmad Zaky, Founder-CEO Bukalapak"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         
@@ -217,8 +217,8 @@ class DayOneTableViewController: UITableViewController {
     @IBAction func ten(sender: UIButton)
     {
         let time = "18.00"
-        let topic = "Growing SME with eCommerce"
-        let presenter = "Achmad Zaky, Founder-CEO Bukalapak"
+        let topic = "Digital Video and Connected Consumer"
+        let presenter = "Gautam Talwar, VP Partnerships, Disney Maker Studios"
         let textToShare = "Come and visit IdByte in Pacific Place at " + time + " with topics " + topic + " by " + presenter
         
         
