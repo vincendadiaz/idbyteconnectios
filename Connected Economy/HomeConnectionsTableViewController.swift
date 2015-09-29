@@ -19,7 +19,7 @@ class HomeConnectionsTableViewController: UITableViewController {
     override func viewWillAppear(animated:Bool)
     {
         super.viewWillAppear(true)
-        var url = "/connections/"+IDBytesManager.sharedInstance().email+"/5/0"
+        var url = "/connections/"+IDBytesManager.sharedInstance().email+"/3/0"
         IDBytesManager.sharedInstance().requestManager().GET(url, parameters: nil, success: { [weak self] (op, responseObject) -> Void in
             if(self != nil)
             {
