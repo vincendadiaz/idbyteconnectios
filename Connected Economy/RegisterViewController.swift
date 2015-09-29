@@ -23,6 +23,10 @@ class RegisterViewController: UITableViewController,UITextFieldDelegate {
     }
     
     
+    @IBAction func backButtonPressed(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     @IBAction func sumbit(sender: AnyObject) {
         if(self.emailTextField.text!.characters.count > 0 && self.phoneTextField.text!.characters.count > 0 && self.companyTextField.text!.characters.count > 0 && self.positionTextField.text!.characters.count > 0 && self.nameTextField.text!.characters.count > 0 ){
         IDBytesManager.sharedInstance().requestManager().POST("/auth/register", parameters: self.params, success: {[weak self] (op,responseObject) -> Void in
