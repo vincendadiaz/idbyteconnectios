@@ -1548,7 +1548,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
             </objects>
             <point key="canvasLocation" x="1528" y="-2199"/>
         </scene>
-        <!--Register-->
+        <!--Complete your e-card!-->
         <scene sceneID="ZXw-Nn-V1Q">
             <objects>
                 <tableViewController id="cIc-TD-pUJ" customClass="RegisterViewController" customModule="IdByte_Connect" customModuleProvider="target" sceneMemberID="viewController">
@@ -1780,7 +1780,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                             <outlet property="delegate" destination="cIc-TD-pUJ" id="uc0-S2-fOF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Register" id="YVH-HN-qGN">
+                    <navigationItem key="navigationItem" title="Complete your e-card!" id="YVH-HN-qGN">
                         <barButtonItem key="rightBarButtonItem" title="Submit" id="Iq8-8E-etV">
                             <connections>
                                 <action selector="sumbit:" destination="cIc-TD-pUJ" id="GrY-RH-qz7"/>
@@ -4848,8 +4848,8 @@ Moderator : Daniel Rembeth Markets Group Director of PwC</string>
         <image name="vesperia" width="897" height="456"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gdc-vE-doJ"/>
         <segue reference="HHs-4r-deG"/>
+        <segue reference="3Ce-Yz-qdw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
