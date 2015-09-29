@@ -25,6 +25,9 @@
             <string>GothamBold</string>
             <string>GothamBold</string>
             <string>GothamBold</string>
+            <string>GothamBold</string>
+            <string>GothamBold</string>
+            <string>GothamBold</string>
         </mutableArray>
         <mutableArray key="GothamLight.ttf">
             <string>GothamLight</string>
@@ -527,7 +530,7 @@ Join us at our </string>
                                 <rect key="frame" x="20" y="111" width="560" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="GmR-Gx-0cx"/>
+                                    <constraint firstAttribute="height" constant="21" id="I8t-oY-oTZ"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Name">
@@ -545,8 +548,8 @@ Join us at our </string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96F-nk-atU">
                                 <rect key="frame" x="6" y="247" width="360" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="360" id="JsI-Ce-cVk"/>
-                                    <constraint firstAttribute="height" constant="24" id="KNA-3g-IAI"/>
+                                    <constraint firstAttribute="width" constant="360" id="Mdb-db-MLi"/>
+                                    <constraint firstAttribute="height" constant="24" id="pH6-j6-NjI"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Latest Connections">
@@ -563,9 +566,6 @@ Join us at our </string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSx-3y-0v3">
                                 <rect key="frame" x="20" y="147" width="560" height="21"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="qTz-HD-9ls"/>
-                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Company">
                                         <attributes>
@@ -582,7 +582,7 @@ Join us at our </string>
                                 <rect key="frame" x="20" y="130" width="560" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="g9I-d2-S5f"/>
+                                    <constraint firstAttribute="height" constant="21" id="90P-pp-UJJ"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Job">
@@ -606,8 +606,8 @@ Join us at our </string>
                                 <rect key="frame" x="530" y="466" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="LhZ-UX-dKu"/>
-                                    <constraint firstAttribute="width" constant="50" id="u6r-9A-aJV"/>
+                                    <constraint firstAttribute="height" constant="50" id="jD5-cH-LLZ"/>
+                                    <constraint firstAttribute="width" constant="50" id="qp1-ZW-1Cl"/>
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="8" minY="10" maxX="10" maxY="15"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
@@ -624,11 +624,9 @@ Join us at our </string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujl-As-yVT">
-                                <rect key="frame" x="266" y="150" width="100" height="100"/>
+                                <rect key="frame" x="249" y="150" width="100" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="MXL-8H-N9C"/>
-                                    <constraint firstAttribute="width" secondItem="ujl-As-yVT" secondAttribute="height" multiplier="1:1" id="hHe-LL-4Bi"/>
-                                    <constraint firstAttribute="width" constant="100" id="pAu-s8-Sxh"/>
+                                    <constraint firstAttribute="width" constant="100" id="Xje-RE-ctE"/>
                                 </constraints>
                                 <state key="normal" image="icoa1"/>
                                 <userDefinedRuntimeAttributes>
@@ -640,29 +638,10 @@ Join us at our </string>
                                     <segue destination="sJi-UO-StQ" kind="push" id="A04-wk-Dpt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqA-im-Ge4">
-                                <rect key="frame" x="366" y="150" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="BqA-im-Ge4" secondAttribute="height" multiplier="1:1" id="0sq-Xl-J24"/>
-                                    <constraint firstAttribute="height" constant="100" id="OgO-Ch-vqb"/>
-                                    <constraint firstAttribute="width" constant="100" id="eOn-dC-gus"/>
-                                </constraints>
-                                <state key="normal" image="icoa3"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
-                                        <integer key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="9kk-5T-3UQ" kind="push" id="W3s-no-EAY"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smo-CH-2Ux">
-                                <rect key="frame" x="166" y="150" width="100" height="100"/>
+                                <rect key="frame" x="149" y="150" width="100" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="smo-CH-2Ux" secondAttribute="height" multiplier="1:1" id="8tE-B9-xaj"/>
-                                    <constraint firstAttribute="width" constant="100" id="L0U-62-MJc"/>
-                                    <constraint firstAttribute="height" constant="100" id="TdB-z1-e5o"/>
+                                    <constraint firstAttribute="width" constant="100" id="W2Q-QL-oro"/>
                                 </constraints>
                                 <state key="normal" image="icoa2"/>
                                 <userDefinedRuntimeAttributes>
@@ -674,45 +653,61 @@ Join us at our </string>
                                     <segue destination="RRi-Lc-11r" kind="push" id="Em4-1k-i52"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqA-im-Ge4">
+                                <rect key="frame" x="349" y="150" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2PJ-JC-g2x"/>
+                                </constraints>
+                                <state key="normal" image="icoa3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="9kk-5T-3UQ" kind="push" id="W3s-no-EAY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="BqA-im-Ge4" firstAttribute="top" secondItem="ujl-As-yVT" secondAttribute="top" id="31U-NN-aS2"/>
-                            <constraint firstItem="0TS-nH-udc" firstAttribute="trailing" secondItem="Nut-HE-KGV" secondAttribute="trailing" id="8AI-pH-41B"/>
-                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="0TS-nH-udc" secondAttribute="bottom" constant="83" id="8ud-ER-Jo5"/>
-                            <constraint firstItem="Nut-HE-KGV" firstAttribute="bottom" secondItem="4Ik-3t-QRB" secondAttribute="top" constant="65" id="Aad-yX-OOf"/>
-                            <constraint firstItem="kSx-3y-0v3" firstAttribute="centerX" secondItem="zUI-Gj-xZp" secondAttribute="centerX" id="CpI-uP-kFy"/>
-                            <constraint firstItem="Nut-HE-KGV" firstAttribute="top" secondItem="smo-CH-2Ux" secondAttribute="bottom" constant="25" id="Dlh-4N-Zcp"/>
-                            <constraint firstItem="zUI-Gj-xZp" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" id="Fnq-dC-0Zm"/>
-                            <constraint firstItem="0TS-nH-udc" firstAttribute="bottom" secondItem="kSx-3y-0v3" secondAttribute="bottom" constant="-4" id="Fpj-aN-gPq"/>
-                            <constraint firstItem="kSx-3y-0v3" firstAttribute="top" secondItem="YRJ-bG-hVV" secondAttribute="bottom" constant="15" id="Gmt-i8-BT8"/>
-                            <constraint firstItem="smo-CH-2Ux" firstAttribute="top" secondItem="ujl-As-yVT" secondAttribute="top" id="H4w-mg-h8g"/>
-                            <constraint firstItem="ujl-As-yVT" firstAttribute="centerX" secondItem="Zwt-8Q-AO2" secondAttribute="centerX" constant="16" id="Hzb-59-zKT"/>
-                            <constraint firstItem="YRJ-bG-hVV" firstAttribute="leading" secondItem="zSo-4n-kYy" secondAttribute="leading" id="Jl2-6K-DAo"/>
-                            <constraint firstItem="zSo-4n-kYy" firstAttribute="trailing" secondItem="kSx-3y-0v3" secondAttribute="trailing" id="Mi4-TQ-DcV"/>
-                            <constraint firstItem="YRJ-bG-hVV" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" constant="111" id="Ou2-Wq-f9U"/>
-                            <constraint firstItem="YRJ-bG-hVV" firstAttribute="trailing" secondItem="zSo-4n-kYy" secondAttribute="trailing" id="P0O-U4-HZG"/>
-                            <constraint firstItem="96F-nk-atU" firstAttribute="leading" secondItem="Zwt-8Q-AO2" secondAttribute="leadingMargin" constant="-14" id="Q73-Hb-Wfh"/>
-                            <constraint firstItem="smo-CH-2Ux" firstAttribute="top" secondItem="0TS-nH-udc" secondAttribute="bottom" constant="-14" id="Rfw-8c-ZTU"/>
-                            <constraint firstAttribute="bottom" secondItem="Jkk-Mr-wJY" secondAttribute="bottom" constant="20" symbolic="YES" id="WZb-3c-mDd"/>
-                            <constraint firstItem="0TS-nH-udc" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" constant="104" id="X0k-u2-5Tm"/>
-                            <constraint firstItem="Nut-HE-KGV" firstAttribute="leading" secondItem="Zwt-8Q-AO2" secondAttribute="leadingMargin" constant="-21" id="YUN-hJ-n0G"/>
-                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="zUI-Gj-xZp" secondAttribute="bottom" constant="83" id="Yo6-pa-ED6"/>
-                            <constraint firstItem="ujl-As-yVT" firstAttribute="bottom" secondItem="smo-CH-2Ux" secondAttribute="bottom" id="ZwY-rb-WGA"/>
-                            <constraint firstItem="zSo-4n-kYy" firstAttribute="leading" secondItem="kSx-3y-0v3" secondAttribute="leading" id="c2q-3H-oa5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Nut-HE-KGV" secondAttribute="trailing" constant="-19" id="e16-EX-BSV"/>
-                            <constraint firstItem="BqA-im-Ge4" firstAttribute="bottom" secondItem="ujl-As-yVT" secondAttribute="bottom" id="hge-Yz-Hvs"/>
-                            <constraint firstItem="kSx-3y-0v3" firstAttribute="trailing" secondItem="Jkk-Mr-wJY" secondAttribute="trailing" id="hkg-87-UpG"/>
-                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="zSo-4n-kYy" secondAttribute="bottom" constant="96" id="kJr-2x-pUf"/>
-                            <constraint firstItem="zUI-Gj-xZp" firstAttribute="trailing" secondItem="0TS-nH-udc" secondAttribute="trailing" constant="1" id="kUg-5u-dg1"/>
-                            <constraint firstItem="0TS-nH-udc" firstAttribute="leading" secondItem="zUI-Gj-xZp" secondAttribute="leading" constant="-1" id="ofd-M3-cex"/>
-                            <constraint firstItem="Jkk-Mr-wJY" firstAttribute="trailing" secondItem="Zwt-8Q-AO2" secondAttribute="trailingMargin" id="pxU-26-0HK"/>
-                            <constraint firstItem="Nut-HE-KGV" firstAttribute="leading" secondItem="0TS-nH-udc" secondAttribute="leading" id="s65-yf-Eg4"/>
-                            <constraint firstItem="ujl-As-yVT" firstAttribute="leading" secondItem="smo-CH-2Ux" secondAttribute="trailing" id="syd-U9-5hd"/>
-                            <constraint firstItem="Nut-HE-KGV" firstAttribute="top" secondItem="96F-nk-atU" secondAttribute="bottom" constant="4" id="vBf-PS-Q5A"/>
-                            <constraint firstItem="BqA-im-Ge4" firstAttribute="leading" secondItem="ujl-As-yVT" secondAttribute="trailing" id="wrS-Oj-W75"/>
+                            <constraint firstItem="Nut-HE-KGV" firstAttribute="top" secondItem="smo-CH-2Ux" secondAttribute="bottom" constant="25" id="23P-EN-Yat"/>
+                            <constraint firstItem="0TS-nH-udc" firstAttribute="leading" secondItem="Nut-HE-KGV" secondAttribute="leading" id="3Xr-Jd-Zel"/>
+                            <constraint firstItem="kSx-3y-0v3" firstAttribute="leading" secondItem="Zwt-8Q-AO2" secondAttribute="leadingMargin" id="3ZR-Ws-UOi"/>
+                            <constraint firstItem="BqA-im-Ge4" firstAttribute="top" secondItem="ujl-As-yVT" secondAttribute="top" id="649-Ae-W6f"/>
+                            <constraint firstItem="zSo-4n-kYy" firstAttribute="leading" secondItem="kSx-3y-0v3" secondAttribute="leading" id="7S5-Ke-TAy"/>
+                            <constraint firstItem="0TS-nH-udc" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" constant="104" id="8BB-ii-5MN"/>
+                            <constraint firstItem="Nut-HE-KGV" firstAttribute="top" secondItem="96F-nk-atU" secondAttribute="bottom" constant="4" id="B36-8b-q5j"/>
+                            <constraint firstItem="zSo-4n-kYy" firstAttribute="centerX" secondItem="zUI-Gj-xZp" secondAttribute="centerX" id="Bsx-Bj-ir1"/>
+                            <constraint firstItem="smo-CH-2Ux" firstAttribute="bottom" secondItem="ujl-As-yVT" secondAttribute="bottom" id="CSe-Vd-qjp"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Nut-HE-KGV" secondAttribute="bottom" constant="-65" id="FGx-M0-b59"/>
+                            <constraint firstItem="BqA-im-Ge4" firstAttribute="bottom" secondItem="ujl-As-yVT" secondAttribute="bottom" id="LTe-US-KGg"/>
+                            <constraint firstAttribute="bottom" secondItem="Jkk-Mr-wJY" secondAttribute="bottom" constant="20" symbolic="YES" id="LgQ-qN-4Iu"/>
+                            <constraint firstItem="kSx-3y-0v3" firstAttribute="top" secondItem="YRJ-bG-hVV" secondAttribute="bottom" constant="15" id="NHy-jb-yGq"/>
+                            <constraint firstItem="ujl-As-yVT" firstAttribute="leading" secondItem="smo-CH-2Ux" secondAttribute="trailing" id="OV7-5h-IHh"/>
+                            <constraint firstItem="smo-CH-2Ux" firstAttribute="top" secondItem="ujl-As-yVT" secondAttribute="top" id="Owy-a3-fZY"/>
+                            <constraint firstItem="0TS-nH-udc" firstAttribute="centerX" secondItem="ujl-As-yVT" secondAttribute="centerX" id="PjI-jU-FDK"/>
+                            <constraint firstItem="zSo-4n-kYy" firstAttribute="trailing" secondItem="kSx-3y-0v3" secondAttribute="trailing" id="Qpx-HJ-1rS"/>
+                            <constraint firstItem="zUI-Gj-xZp" firstAttribute="leading" secondItem="Zwt-8Q-AO2" secondAttribute="leading" id="VWw-3Y-vph"/>
+                            <constraint firstItem="0TS-nH-udc" firstAttribute="leading" secondItem="Zwt-8Q-AO2" secondAttribute="leadingMargin" constant="-21" id="WRB-ly-oe3"/>
+                            <constraint firstItem="Nut-HE-KGV" firstAttribute="trailing" secondItem="0TS-nH-udc" secondAttribute="trailing" id="YFp-UQ-a8E"/>
+                            <constraint firstItem="ujl-As-yVT" firstAttribute="centerX" secondItem="Zwt-8Q-AO2" secondAttribute="centerX" constant="-1" id="bb0-Jh-GOm"/>
+                            <constraint firstItem="zSo-4n-kYy" firstAttribute="trailing" secondItem="YRJ-bG-hVV" secondAttribute="trailing" id="c0X-vE-FKy"/>
+                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="zSo-4n-kYy" secondAttribute="bottom" constant="96" id="dOG-FU-nHg"/>
+                            <constraint firstItem="zUI-Gj-xZp" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" id="eoc-pE-dDH"/>
+                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="kSx-3y-0v3" secondAttribute="bottom" constant="79" id="fkU-S4-nwj"/>
+                            <constraint firstItem="YRJ-bG-hVV" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" constant="111" id="hVi-t3-Nye"/>
+                            <constraint firstItem="smo-CH-2Ux" firstAttribute="top" secondItem="YRJ-bG-hVV" secondAttribute="bottom" constant="18" id="keH-OJ-1yl"/>
+                            <constraint firstItem="96F-nk-atU" firstAttribute="trailing" secondItem="ujl-As-yVT" secondAttribute="trailing" constant="17" id="ktf-O3-OHc"/>
+                            <constraint firstItem="BqA-im-Ge4" firstAttribute="leading" secondItem="ujl-As-yVT" secondAttribute="trailing" id="qqB-Hf-yBC"/>
+                            <constraint firstItem="zUI-Gj-xZp" firstAttribute="bottom" secondItem="0TS-nH-udc" secondAttribute="bottom" id="sMI-r9-mjm"/>
+                            <constraint firstItem="96F-nk-atU" firstAttribute="top" secondItem="0TS-nH-udc" secondAttribute="bottom" constant="83" id="tnn-vf-8fG"/>
+                            <constraint firstAttribute="trailing" secondItem="zUI-Gj-xZp" secondAttribute="trailing" id="vYQ-8a-qEZ"/>
+                            <constraint firstItem="kSx-3y-0v3" firstAttribute="trailing" secondItem="Jkk-Mr-wJY" secondAttribute="trailing" id="wbt-Ak-Q8c"/>
+                            <constraint firstItem="zSo-4n-kYy" firstAttribute="top" secondItem="yLQ-Pj-dkc" secondAttribute="bottom" constant="130" id="xZc-ka-KGE"/>
+                            <constraint firstItem="YRJ-bG-hVV" firstAttribute="leading" secondItem="zSo-4n-kYy" secondAttribute="leading" id="z02-qg-TF1"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Uby-tc-G9e" appends="YES" id="4oR-MA-MB4"/>
@@ -775,10 +770,16 @@ Join us at our </string>
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9d-JG-CmI">
-                                            <rect key="frame" x="18" y="54" width="8" height="21"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="708-CA-FXd">
+                                            <rect key="frame" x="38" y="15" width="100" height="100"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="8" id="Uvb-tG-ScT"/>
+                                                <constraint firstAttribute="width" constant="100" id="PB6-Ak-COe"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9d-JG-CmI">
+                                            <rect key="frame" x="8" y="54" width="22" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="22" id="Uvb-tG-ScT"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
@@ -796,19 +797,13 @@ Join us at our </string>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="708-CA-FXd">
-                                            <rect key="frame" x="38" y="15" width="100" height="100"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="PB6-Ak-COe"/>
-                                            </constraints>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="gja-ib-8I5">
                                             <rect key="frame" x="146" y="15" width="393" height="21"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="con" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXJ-IT-JHw">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="con" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXJ-IT-JHw">
                                             <rect key="frame" x="534" y="35" width="66" height="36"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="zDV-dn-GeE"/>
@@ -834,12 +829,12 @@ Join us at our </string>
                                         <constraint firstAttribute="trailingMargin" secondItem="gja-ib-8I5" secondAttribute="trailing" constant="53" id="FKk-aD-ZeM"/>
                                         <constraint firstItem="H2m-tr-EvX" firstAttribute="top" secondItem="YhL-dd-gbv" secondAttribute="bottom" constant="-12" id="MHY-Vj-jVw"/>
                                         <constraint firstItem="s9d-JG-CmI" firstAttribute="centerY" secondItem="dfX-K7-WgO" secondAttribute="centerY" id="S8x-3I-eAx"/>
-                                        <constraint firstItem="708-CA-FXd" firstAttribute="leading" secondItem="s9d-JG-CmI" secondAttribute="trailing" constant="12" id="VPI-TM-MOf"/>
+                                        <constraint firstItem="708-CA-FXd" firstAttribute="leading" secondItem="s9d-JG-CmI" secondAttribute="trailing" constant="8" id="VPI-TM-MOf"/>
                                         <constraint firstItem="708-CA-FXd" firstAttribute="top" secondItem="gja-ib-8I5" secondAttribute="top" id="XDC-Ws-T1W"/>
-                                        <constraint firstItem="s9d-JG-CmI" firstAttribute="leading" secondItem="dfX-K7-WgO" secondAttribute="leadingMargin" constant="10" id="bKl-Jn-Tmc"/>
+                                        <constraint firstItem="s9d-JG-CmI" firstAttribute="leading" secondItem="dfX-K7-WgO" secondAttribute="leadingMargin" id="bKl-Jn-Tmc"/>
                                         <constraint firstItem="gja-ib-8I5" firstAttribute="leading" secondItem="708-CA-FXd" secondAttribute="trailing" constant="8" symbolic="YES" id="c7K-Al-gGI"/>
                                         <constraint firstItem="YhL-dd-gbv" firstAttribute="trailing" secondItem="gja-ib-8I5" secondAttribute="trailing" id="eC8-of-B7B"/>
-                                        <constraint firstItem="REk-CM-iCt" firstAttribute="baseline" secondItem="ZXJ-IT-JHw" secondAttribute="baseline" constant="19" id="ePR-SZ-mUF"/>
+                                        <constraint firstItem="REk-CM-iCt" firstAttribute="baseline" secondItem="ZXJ-IT-JHw" secondAttribute="baseline" constant="21" id="ePR-SZ-mUF"/>
                                         <constraint firstItem="REk-CM-iCt" firstAttribute="centerY" secondItem="H2m-tr-EvX" secondAttribute="centerY" constant="11.5" id="fao-ov-5pk"/>
                                         <constraint firstItem="ZXJ-IT-JHw" firstAttribute="top" secondItem="gja-ib-8I5" secondAttribute="bottom" constant="-1" id="hzg-SH-axO"/>
                                         <constraint firstItem="s9d-JG-CmI" firstAttribute="top" secondItem="ZXJ-IT-JHw" secondAttribute="top" constant="19" id="mb1-yO-wSs"/>
@@ -966,10 +961,16 @@ Join us at our </string>
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F4-Wk-lRH">
-                                            <rect key="frame" x="18" y="54" width="8" height="21"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ki8-PA-zcn">
+                                            <rect key="frame" x="38" y="15" width="100" height="100"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="8" id="8o1-cG-nBN"/>
+                                                <constraint firstAttribute="width" constant="100" id="du7-Hd-Hua"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F4-Wk-lRH">
+                                            <rect key="frame" x="8" y="54" width="18" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="18" id="8o1-cG-nBN"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
@@ -993,7 +994,7 @@ Join us at our </string>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="con" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xke-Ea-X2r">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="con" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xke-Ea-X2r">
                                             <rect key="frame" x="534" y="35" width="66" height="36"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="xTz-8d-qO7"/>
@@ -1008,17 +1009,11 @@ Join us at our </string>
                                             <color key="textColor" red="0.94117647059999998" green="0.35294117650000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ki8-PA-zcn">
-                                            <rect key="frame" x="38" y="15" width="100" height="100"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="du7-Hd-Hua"/>
-                                            </constraints>
-                                        </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="qQR-bs-hEf" firstAttribute="trailing" secondItem="qpd-P4-eBJ" secondAttribute="trailing" id="3b8-9O-aMK"/>
                                         <constraint firstItem="qQR-bs-hEf" firstAttribute="trailing" secondItem="X8i-gW-Vxq" secondAttribute="trailing" id="CZG-h2-ZzB"/>
-                                        <constraint firstItem="8F4-Wk-lRH" firstAttribute="leading" secondItem="txp-M8-Fq7" secondAttribute="leadingMargin" constant="10" id="HNk-VJ-LHy"/>
+                                        <constraint firstItem="8F4-Wk-lRH" firstAttribute="leading" secondItem="txp-M8-Fq7" secondAttribute="leadingMargin" id="HNk-VJ-LHy"/>
                                         <constraint firstItem="Xke-Ea-X2r" firstAttribute="top" secondItem="X8i-gW-Vxq" secondAttribute="bottom" constant="-1" id="K6b-aq-bJA"/>
                                         <constraint firstItem="X8i-gW-Vxq" firstAttribute="leading" secondItem="Ki8-PA-zcn" secondAttribute="trailing" constant="8" symbolic="YES" id="NsA-NJ-4Sa"/>
                                         <constraint firstItem="Iah-Wq-MqP" firstAttribute="top" secondItem="qQR-bs-hEf" secondAttribute="bottom" constant="-12" id="VM5-f9-HzO"/>
@@ -1031,7 +1026,7 @@ Join us at our </string>
                                         <constraint firstItem="qQR-bs-hEf" firstAttribute="leading" secondItem="qpd-P4-eBJ" secondAttribute="leading" id="ed0-bv-ZqG"/>
                                         <constraint firstItem="Iah-Wq-MqP" firstAttribute="leading" secondItem="Xke-Ea-X2r" secondAttribute="leading" id="kkU-dM-h15"/>
                                         <constraint firstItem="Ki8-PA-zcn" firstAttribute="leading" secondItem="8F4-Wk-lRH" secondAttribute="trailing" constant="12" id="kyH-aE-yAm"/>
-                                        <constraint firstItem="qpd-P4-eBJ" firstAttribute="baseline" secondItem="Xke-Ea-X2r" secondAttribute="baseline" constant="19" id="l36-kH-NB1"/>
+                                        <constraint firstItem="qpd-P4-eBJ" firstAttribute="baseline" secondItem="Xke-Ea-X2r" secondAttribute="baseline" constant="21" id="l36-kH-NB1"/>
                                         <constraint firstItem="8F4-Wk-lRH" firstAttribute="centerY" secondItem="Ki8-PA-zcn" secondAttribute="centerY" id="l9z-Wq-BjX"/>
                                         <constraint firstItem="8F4-Wk-lRH" firstAttribute="centerY" secondItem="txp-M8-Fq7" secondAttribute="centerY" id="n3t-XF-B4P"/>
                                         <constraint firstItem="qpd-P4-eBJ" firstAttribute="centerY" secondItem="Iah-Wq-MqP" secondAttribute="centerY" constant="11.5" id="p7p-P0-BaF"/>
@@ -2973,10 +2968,10 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="MS8-UT-lLr">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="37"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things and Connectivity (Seminar 1)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-sa-Rqe">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things and Connectivity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-sa-Rqe">
                                     <rect key="frame" x="8" y="8" width="382" height="21"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="382" id="HdQ-U3-hBG"/>
@@ -2985,19 +2980,31 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(IDBYTE - Seminar 1)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mic-Ca-mz9">
+                                    <rect key="frame" x="8" y="27" width="382" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="382" id="P80-10-EQf"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="16"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Mic-Ca-mz9" secondAttribute="bottom" constant="1" id="4Nj-j7-S7Y"/>
+                                <constraint firstItem="Mic-Ca-mz9" firstAttribute="leading" secondItem="wKA-sa-Rqe" secondAttribute="leading" id="5Xb-2P-9fR"/>
                                 <constraint firstItem="wKA-sa-Rqe" firstAttribute="top" secondItem="MS8-UT-lLr" secondAttribute="topMargin" id="7mW-3Y-hTI"/>
+                                <constraint firstItem="Mic-Ca-mz9" firstAttribute="top" secondItem="MS8-UT-lLr" secondAttribute="top" constant="27" id="G6h-Ts-jcU"/>
                                 <constraint firstItem="wKA-sa-Rqe" firstAttribute="leading" secondItem="MS8-UT-lLr" secondAttribute="leadingMargin" id="fBC-V6-RRt"/>
-                                <constraint firstItem="wKA-sa-Rqe" firstAttribute="bottom" secondItem="MS8-UT-lLr" secondAttribute="bottomMargin" id="lUg-Ke-OkV"/>
+                                <constraint firstItem="wKA-sa-Rqe" firstAttribute="bottom" secondItem="MS8-UT-lLr" secondAttribute="bottomMargin" constant="-12" id="lUg-Ke-OkV"/>
                             </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="Ggq-2s-zzK">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="T7G-TG-qhr">
-                                        <rect key="frame" x="0.0" y="37" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="49" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T7G-TG-qhr" id="VqV-lR-gbn">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3082,7 +3089,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="7Yv-cQ-FCT">
-                                        <rect key="frame" x="0.0" y="237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="249" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Yv-cQ-FCT" id="e6u-CR-aye">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3147,7 +3154,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ChE-vi-CNE">
-                                        <rect key="frame" x="0.0" y="437" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="449" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ChE-vi-CNE" id="VhM-7e-4g1">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3212,7 +3219,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ccI-sR-7cA">
-                                        <rect key="frame" x="0.0" y="637" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="649" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ccI-sR-7cA" id="6hf-kX-qjV">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3297,7 +3304,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Vwk-Ya-byB">
-                                        <rect key="frame" x="0.0" y="837" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="849" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vwk-Ya-byB" id="PlW-0e-2vc">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3365,7 +3372,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="hvT-ba-1tw">
-                                        <rect key="frame" x="0.0" y="1037" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1049" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hvT-ba-1tw" id="CCF-cQ-AFH">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3456,7 +3463,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="PqM-ZX-jfa">
-                                        <rect key="frame" x="0.0" y="1237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1249" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PqM-ZX-jfa" id="l62-6p-9Ca">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3524,7 +3531,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="dSa-fs-EUw">
-                                        <rect key="frame" x="0.0" y="1437" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1449" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dSa-fs-EUw" id="DBg-AU-BQN">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3582,7 +3589,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ILc-0i-j5A">
-                                        <rect key="frame" x="0.0" y="1637" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1649" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ILc-0i-j5A" id="DDd-hq-3by">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3638,7 +3645,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="a4y-VE-EcI">
-                                        <rect key="frame" x="0.0" y="1837" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1849" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a4y-VE-EcI" id="NHx-7C-jbt">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3715,13 +3722,19 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="TeV-FU-oQb">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="37"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected e-Conomy (Conference)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUN-PQ-2Q8">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(IDBYTE - Conference)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pl7-VL-fhy">
+                                    <rect key="frame" x="8" y="26" width="382" height="21"/>
+                                    <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="18"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected e-Conomy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUN-PQ-2Q8">
                                     <rect key="frame" x="8" y="8" width="382" height="21"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="382" id="ede-ET-6eo"/>
+                                        <constraint firstAttribute="width" constant="382" id="tbF-fD-Owd"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="18"/>
                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -3730,16 +3743,20 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="YUN-PQ-2Q8" firstAttribute="bottom" secondItem="TeV-FU-oQb" secondAttribute="bottomMargin" id="hIG-Rc-3fM"/>
-                                <constraint firstItem="YUN-PQ-2Q8" firstAttribute="leading" secondItem="TeV-FU-oQb" secondAttribute="leadingMargin" id="sdr-tX-O2C"/>
-                                <constraint firstItem="YUN-PQ-2Q8" firstAttribute="top" secondItem="TeV-FU-oQb" secondAttribute="topMargin" id="sxt-hB-Ael"/>
+                                <constraint firstItem="YUN-PQ-2Q8" firstAttribute="top" secondItem="TeV-FU-oQb" secondAttribute="topMargin" id="1DQ-cw-1kS"/>
+                                <constraint firstItem="pl7-VL-fhy" firstAttribute="top" secondItem="TeV-FU-oQb" secondAttribute="top" constant="26" id="Ac6-2D-RdB"/>
+                                <constraint firstItem="pl7-VL-fhy" firstAttribute="leading" secondItem="TeV-FU-oQb" secondAttribute="leadingMargin" id="Axv-hU-DPA"/>
+                                <constraint firstAttribute="bottom" secondItem="pl7-VL-fhy" secondAttribute="bottom" constant="2" id="Z6v-fv-ztV"/>
+                                <constraint firstItem="YUN-PQ-2Q8" firstAttribute="trailing" secondItem="pl7-VL-fhy" secondAttribute="trailing" id="ZpT-RV-X9m"/>
+                                <constraint firstAttribute="bottom" secondItem="YUN-PQ-2Q8" secondAttribute="bottom" constant="20" id="kG8-bs-yNv"/>
+                                <constraint firstItem="pl7-VL-fhy" firstAttribute="leading" secondItem="YUN-PQ-2Q8" secondAttribute="leading" id="n9e-qb-Hpy"/>
                             </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="Gzd-W9-6Ye">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="GKd-O9-mRZ">
-                                        <rect key="frame" x="0.0" y="37" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="49" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GKd-O9-mRZ" id="Aeu-DB-s6n">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3800,7 +3817,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="MWg-wk-4t1">
-                                        <rect key="frame" x="0.0" y="237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="249" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MWg-wk-4t1" id="Ubx-xd-lLq">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3863,7 +3880,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BOO-ux-VRe">
-                                        <rect key="frame" x="0.0" y="437" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="449" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BOO-ux-VRe" id="oG6-79-aM4">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3923,7 +3940,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cI4-ox-eoV">
-                                        <rect key="frame" x="0.0" y="637" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="649" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cI4-ox-eoV" id="7fi-nx-fio">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -3986,7 +4003,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="pL9-jD-JIq">
-                                        <rect key="frame" x="0.0" y="837" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="849" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pL9-jD-JIq" id="GCY-PK-C7C">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4048,7 +4065,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Sj0-19-Xdh">
-                                        <rect key="frame" x="0.0" y="1037" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1049" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sj0-19-Xdh" id="q8E-4s-wFG">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4113,7 +4130,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="NBV-vU-LUa">
-                                        <rect key="frame" x="0.0" y="1237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1249" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NBV-vU-LUa" id="nii-Ie-6fH">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4173,7 +4190,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="gbw-EY-DTZ">
-                                        <rect key="frame" x="0.0" y="1437" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1449" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gbw-EY-DTZ" id="zvW-Md-Vhp">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4233,7 +4250,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="18s-5t-wVi">
-                                        <rect key="frame" x="0.0" y="1637" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1649" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="18s-5t-wVi" id="046-hN-ovq">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4293,7 +4310,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="eiI-qx-ndq">
-                                        <rect key="frame" x="0.0" y="1837" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1849" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eiI-qx-ndq" id="mCN-xV-syM">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4367,16 +4384,25 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="Xtw-Qd-AOL">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="37"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="56"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Exchange and Transaction (Seminar 2)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VA-v2-qTG">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" Exchange and Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VA-v2-qTG">
                                     <rect key="frame" x="8" y="8" width="382" height="21"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="382" id="TuB-YJ-BLA"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="18"/>
                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="(IDBYTE - Seminar 2)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJm-cT-xfv">
+                                    <rect key="frame" x="9" y="31" width="382" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="382" id="g47-3f-RBp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="GothamBold" family="Gotham Bold" pointSize="18"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
@@ -4391,17 +4417,12 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                             <tableViewSection id="oE4-qv-rce">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Qrq-7B-kvd">
-                                        <rect key="frame" x="0.0" y="37" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="56" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qrq-7B-kvd" id="4Nx-Nm-CHB">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mobile First Approach To Meet Indonesian Millennials" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBc-fm-SAd">
-                                                    <rect key="frame" x="14" y="8" width="504" height="62"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITG-L8-xDX">
                                                     <rect key="frame" x="535" y="84" width="30" height="30"/>
                                                     <constraints>
@@ -4432,6 +4453,11 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mobile First Approach To Meet Indonesian Millennials" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBc-fm-SAd">
+                                                    <rect key="frame" x="14" y="8" width="504" height="62"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="ITG-L8-xDX" firstAttribute="leading" secondItem="JZs-tS-hrF" secondAttribute="trailing" constant="21" id="0UJ-qC-b6E"/>
@@ -4450,7 +4476,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1Fj-em-4aR">
-                                        <rect key="frame" x="0.0" y="237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="256" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Fj-em-4aR" id="F82-Eq-6ah">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4509,7 +4535,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Mj0-UQ-Aqn">
-                                        <rect key="frame" x="0.0" y="437" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="456" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mj0-UQ-Aqn" id="kai-FG-qfe">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4568,7 +4594,7 @@ http://id-byte.com/uploads/startup_profile/fitinline.pdf</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Hdt-nE-0F9">
-                                        <rect key="frame" x="0.0" y="637" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="656" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hdt-nE-0F9" id="uTP-F7-60l">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4629,7 +4655,7 @@ Moderator : Jerry S Justianto, Director of Masima Corp</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="XCJ-Cv-fPN">
-                                        <rect key="frame" x="0.0" y="837" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="856" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XCJ-Cv-fPN" id="cd1-Lm-tRt">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4690,7 +4716,7 @@ Google Play Apps &amp; Games, South East Asia &amp; Australia</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RTD-Ue-6Vn">
-                                        <rect key="frame" x="0.0" y="1037" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1056" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RTD-Ue-6Vn" id="cZc-LO-WOa">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
@@ -4752,7 +4778,7 @@ Moderator : Daniel Rembeth Markets Group Director of PwC</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ES0-u6-lAS">
-                                        <rect key="frame" x="0.0" y="1237" width="600" height="200"/>
+                                        <rect key="frame" x="0.0" y="1256" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ES0-u6-lAS" id="K50-WU-b8Y">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
